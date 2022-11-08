@@ -1,0 +1,1373 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    height: 100vh;
+
+}
+.about{
+    background: url(./imagenes/5929972.jpg);
+}
+.DIVDETODO{
+    display: flex;
+}
+.seccionprincipal{
+    background-color:rgb(70, 126, 190);
+}
+
+.principalNavBar{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.NavBar ul{
+    text-align: center;
+    
+}
+.NavBar li{
+    margin-bottom: 5px;
+    padding: 20px;
+    display: inline;
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.NavBar a:hover{
+    color: rgb(216, 225, 241);
+    transition: 0.2s;
+}
+.NavBar a{
+    text-decoration: none;
+    color: white;
+}
+.NavBar a:hover{
+    border-bottom: 5px solid rgb(182, 171, 247);
+    width: 110px;
+    padding-bottom: 2px;
+    cursor: pointer;
+}
+
+.nosotros__section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nosotros__p{
+    display: flex;
+    text-align: justify;
+}
+.nosotros__h1{
+    margin-bottom: 10px;
+    font-size: 40px;
+    color: rgb(70, 126, 190);
+}
+.encontranos{
+    color: rgb(70, 126, 190);
+}
+.img__flex{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+
+}
+.imagen__principal{
+    width: 1000px;
+    height: 1000px;
+}
+.imagen__principal .imagen{
+    width: 100%;
+    border-radius: 5px;
+}
+footer{
+    display: flex;
+    background-color:rgb(70, 126, 190);
+}
+.divcontenedor{
+    display: flex;
+    width: 100%;
+}
+.divfooterpadre{
+    width: 20%;
+}
+.divfooterpadre2{
+    margin-top: 15px;
+    width: 80%;
+
+    
+
+}
+.footerul{
+    margin-top: 15px;
+    list-style: none;
+}
+.footerul a{
+    margin-left: 50px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.footerul a:hover{
+    color: rgb(253, 161, 161); ;
+}
+.footerul li{
+    padding: 1px;
+}
+.footerul h4{
+    margin-left: 50px;
+    color: white;
+    font-size: 20px;
+}
+
+.footerul2 h3{
+    font-size: 20px;
+    color: white;
+}
+.liconos{
+    width: 100%;
+    list-style: none;
+    display: inline;
+}
+.liconos a{
+    text-decoration: none;
+}
+.aiconos i{
+    padding: 6px;
+    font-size: 30px;
+    color: white;
+
+}
+
+.informacion__personal{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.nosotros__h1{
+    text-align: center;
+}
+.nosotros__p{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    line-height: 30px;
+    text-align: center;
+}
+.encontranos{
+    text-align: center;
+    margin: 20px;
+}
+.encontranos__aca{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.p__direcciones{
+    width: 100%;
+    text-align: left;
+    overflow: hidden;
+}
+.p__direcciones{
+    text-decoration: none;
+    color: black;
+}
+.p__direcciones .a__direcciones{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    margin: 10px;
+}
+.p__direcciones .a__direcciones:hover{
+    text-decoration: none;
+    color: rgb(255, 168, 168);
+    padding: 5px;
+    margin: 10px;
+}
+
+.PadreContacto{
+    display: flex;
+    width: 100%;
+}
+.ContenedorDatos{
+    width: 50%;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+.ContenedorFormulario{
+    width: 50%;
+}
+
+.h2editar0{
+    color: rgb(100, 121, 218);
+    margin-bottom: 15px;
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+.h2editar{
+    color: rgb(100, 121, 218);
+    margin-bottom: 15px;
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+.h2editar0:hover{
+    border-bottom: 5px solid rgb(182, 171, 247);
+    width: 150px;
+    padding-bottom: 2px;
+    cursor: pointer;
+    color: rgb(151, 163, 250);
+    transition: 0.4s;
+    
+}
+.h2editar:hover{
+    border-bottom: 5px solid rgb(182, 171, 247);
+    width: 200px;
+    padding-bottom: 2px;
+    cursor: pointer;
+    color: rgb(151, 163, 250);
+    transition: 0.4s;
+    
+}
+.ContenedorDatos p{
+    padding: 6px;
+}
+.ContenedorDatos a{
+    text-decoration: none;
+    color: black;
+}
+.SocialMedia{
+    display: flex;
+    justify-content: flex-start;
+}
+.SocialMedia li{
+    list-style: none;
+    display: inline;
+}
+.SocialMedia i{
+    font-size: 35px;
+    padding: 5px;
+    color: rgb(100, 121, 218);;
+}
+form{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.CajaFormulario{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 80px;
+
+}
+.texto1{ 
+    border: 1px solid rgb(151, 151, 151); 
+    border-radius: 2px;
+    margin-bottom: 15px;
+    width: 500px;
+    padding: 15px;
+}
+.texto2{
+    border: 1px solid rgb(151, 151, 151); 
+    border-radius: 2px;
+    margin-bottom: 15px;
+    width: 500px;
+    height: 120px;
+    padding: 15px;
+}
+.texto3{
+    border: 1px;
+    border-radius: 2px;
+    padding: 13px;
+    width: 100px;
+    background-color: rgb(100, 121, 218);
+    color: white;
+}
+.CajaFormulario label{
+    color: rgb(100, 121, 218);
+    width: 100%;
+    margin-bottom: 6px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contactanosimagen{
+    display: flex;
+    justify-content: center;
+}
+.contactanosimagen img{
+    margin: 40px;
+    width: 80%;
+    margin-right: 30px;
+    height: 500px;
+}
+.perfilh1{
+    text-align: center;
+    margin: 10px;
+}
+.imagenunite{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.imagenunite img{
+    width: 200px;
+    align-content: center;
+    margin-bottom: 10px;
+}
+.unitesection{
+    display: flex;
+    justify-content: center;
+
+}
+.uniteform{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.uniteform .inputexto{
+    margin: 15px;
+    padding: 25px;
+    border: 2px;
+    border-radius: 10px;
+    color: grey;
+    width: 30%;
+    box-shadow: 7px 13px 37px rgb(140, 139, 139)
+}
+.botonesunite{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.uniteform .uniteboton{
+    margin: 10px;
+    padding: 10px;
+    border: 2px;
+    border-radius: 8px;
+    color: rgb(94, 93, 93);
+
+}
+.uniteboton:hover{
+    cursor: pointer;
+}
+.uniteform .uniteboton:hover{
+    margin: 10px;
+    padding: 10px;
+    border: 2px;
+    border-radius: 8px;
+    color: rgb(94, 93, 93);
+    background-color: rgba(188, 188, 188, 0.582);;
+}
+.divproximamente{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.imagenproximamente{
+    margin: 40px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    border: 2px;
+    border-radius: 6px;
+    box-shadow: 7px 13px 37px rgb(140, 139, 139)
+}
+.bienvenida{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Abyssinica SIL', serif;
+    font-size: 40px;
+}
+.opciones{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    height: 300px;
+    width: 100%;
+}
+
+.liopciones{
+    display: inline;
+    list-style: none;
+    width: 100%;
+    margin: 10px;
+
+}
+.liopciones i{
+    width: 100%;
+    text-align: center;
+    font-size: 80px;
+}
+.oph3{
+    margin: 6px;
+    text-align: center;
+}
+.opcionp{
+    font-size: 14px;
+    margin: 6px;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.seccionfotos{
+    display: flex;
+    justify-content: center;
+}
+.padrefotos{
+    height: 1300px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin-top: 10px
+    
+}
+
+.hijofoto img{
+    width: 100%;
+    height: 600px;
+}
+.hijofoto2 img{
+    width: 100%;
+    height: 600px;
+}
+.bannerseguinos{
+    display: flex;
+    justify-content: center;
+}
+.divseguinos img{
+    width: 100%;
+    height: 300px;
+}
+
+
+.padreDivNosotros{
+    display: flex;
+    width: 100%;
+}
+.padreDivNosotros2{
+    display: flex;
+    width: 100%;
+}
+.padreDivNosotros3{
+    display: flex;
+    width: 100%;
+}
+.padreDivNosotros4{
+    display: flex;
+    width: 100%;
+}
+.divNosotros{
+    margin-top: 20px;
+    width: 50%;
+}
+.divNosotros h2{
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+    color:  rgb(70, 126, 190);
+}
+.divNosotros p{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left: 80px;
+    width: 500px;
+    line-height: 25px;
+    direction: ltr;
+}
+.divNosotros2{
+    width: 50%;
+}
+.divNosotros2 h2{
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+    color:  rgb(70, 126, 190);
+}
+.divNosotros2 p{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left: 80px;
+    width: 500px;
+    line-height: 25px;
+    direction: rtl;
+}
+
+.divNosotros3 p{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left: 80px;
+    width: 500px;
+    line-height: 25px;
+    direction: ltr;
+}
+
+.divNosotros3 h2{
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+    color:  rgb(70, 126, 190);
+}
+.divNosotros4{
+    width: 50%;
+
+}
+.divNosotros4 h2{
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+    color:  rgb(70, 126, 190);
+
+}
+.divNosotros4 p{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left: 80px;
+    width: 500px;
+    line-height: 25px;
+    direction: rtl;
+}
+.nosotrosImagen{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.nosotrosImagen2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.nosotrosImagen2 img{
+    width: 500px;
+    height: 500px;
+}
+.nosotrosImagen img{
+    width: 500px;
+    height: 500px;
+}
+.nosotrosImagen4{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.nosotrosImagen4 img{
+    width: 400px;
+    border: 1px solid rgb(230, 227, 227);
+    border-radius: 200px;
+    height: 400px;
+    
+}
+.seccionproductos{
+    display: flex;
+    justify-content: center;
+}
+.productosimage img{
+    width: 205vh;
+}
+
+@media screen and (max-width: 1200px){
+    .padrefotos{
+        background-color: white;
+        height: 1030px;
+    }
+    .hijofoto img{
+        width: 1100px;
+        height: 500px;
+    }
+    .hijofoto2 img{
+        width: 1100px;
+        height: 500px;
+    }
+    .bannerseguinos{
+        display: flex;
+        justify-content: center;
+    }
+    .divseguinos img{
+        width: 1100px;
+        height: 250px;
+    }
+}
+@media screen and (max-width: 1024px){
+    .padrefotos{
+        background-color: white;
+        height: 1030px;
+    }
+    .hijofoto img{
+        width: 100%;
+        height: 500px;
+    }
+    .hijofoto2 img{
+        width: 100%;
+        height: 500px;
+    }
+    .bannerseguinos{
+        display: flex;
+        justify-content: center;
+    }
+    .divseguinos img{
+        width: 100%;
+        height: 250px;
+    }
+}
+@media screen and (max-width: 768px){
+    .padrefotos{
+        background-color: white;
+        height: 600px;
+    }
+    .hijofoto img{
+        width: 100%;
+        height: 330px;
+    }
+    .hijofoto2 img{
+        width: 100%;
+        height: 330px;
+    }
+    .divseguinos img{
+        width: 100%;
+        height: 200px;
+        
+}
+.divcontenedor{
+    width: 100%;
+    flex-wrap: wrap;
+}
+.divfooterpadre{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.divfooterpadre2{
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    width: 100%;
+}
+.divfooterpadre li{
+    display: inline;
+
+}
+.footerul{
+    list-style: none;
+    margin-top: 10px;
+}
+.footerli a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin-left: 0;
+}
+.footerul h4{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-left: 0;
+    margin-bottom: 6px;
+}
+.divfooterpadre2{
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    width: 100%;
+}
+.footerul2 h3{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 6px;
+}
+.liconos{
+    width: 100%;
+    list-style: none;
+    display: inline;
+
+}
+.liconos a{
+    text-decoration: none;
+}
+.aiconos i{
+    padding: 6px;
+    font-size: 25px;
+    color: white;
+}
+}
+@media screen and (max-width: 600px){
+    .padrefotos{
+        background-color: white;
+        height: 600px;
+    }
+    .hijofoto img{
+        width: 100%;
+        height: 300px;
+    }
+    .hijofoto2 img{
+        width: 100%;
+        height: 300px;
+    }
+    .divseguinos img{
+        width: 100%;
+        height: 150px;
+    }
+    .NavBar li{
+        margin-bottom: 5px;
+        padding: 15px;
+        display: inline;
+        list-style: none;
+        font-size: 16px;
+        font-family: 'Lexend Deca', sans-serif;
+    }
+    .opciones{
+        display: flex;
+        justify-content: center;
+        margin-top: 90px;
+        height: 500px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .div3{
+        flex-wrap: wrap;
+    }
+    .liopciones{
+        display: inline;
+        list-style: none;
+        width: 100%;
+        margin: 10px;
+    }
+    .liopciones i{
+        display: flex;
+        justify-content: center;
+        font-size: 65px;
+    }
+    .oph3{
+        font-size: 15px;
+        text-align: center;
+        
+    }
+    .opcionp{
+        font-size: 14px;
+        padding: 5px;
+        text-align: center;
+        align-items: center;
+    }
+    .divcontenedor{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .divfooterpadre{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .divfooterpadre2{
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+        width: 100%;
+    }
+    .divfooterpadre li{
+        display: inline;
+    
+    }
+    .footerul{
+        list-style: none;
+        margin-top: 10px;
+    }
+    .footerli a{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+        margin-left: 0;
+    }
+    .footerul h4{
+        text-align: center;
+        color: white;
+        font-size: 15px;
+        margin-left: 0;
+        margin-bottom: 6px;
+    }
+    .divfooterpadre2{
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .footerul2 h3{
+        font-size: 15px;
+        color: white;
+        margin-bottom: 6px;
+    }
+    .liconos{
+        width: 100%;
+        list-style: none;
+        display: inline;
+    
+    }
+    .liconos a{
+        text-decoration: none;
+    }
+    .aiconos i{
+        padding: 6px;
+        font-size: 20px;
+        color: white;
+    }
+}
+@media screen and (max-width: 480px)
+{
+    .padrefotos{
+    background-color: white;
+        height: 450px;
+    }
+    .hijofoto img{
+        width: 100%;
+        height: 250px;
+    }
+    .hijofoto2 img{
+        width: 100%;
+        height: 250px;
+    }
+    .divseguinos img{
+        width: 100%;
+        height: 100px;
+    }
+    .NavBar li{
+        margin-bottom: 5px;
+        padding: 10px;
+        display: inline;
+        list-style: none;
+        font-size: 14px;
+        font-family: 'Lexend Deca', sans-serif;
+    }
+    .divcontenedor{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .divfooterpadre{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .divfooterpadre2{
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+        width: 100%;
+    }
+    .divfooterpadre li{
+        display: inline;
+    
+    }
+    .footerul{
+        list-style: none;
+        margin-top: 10px;
+    }
+    .footerli a{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+        margin-left: 0;
+    }
+    .footerul h4{
+        text-align: center;
+        color: white;
+        font-size: 15px;
+        margin-left: 0;
+        margin-bottom: 6px;
+    }
+    .divfooterpadre2{
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .footerul2 h3{
+        font-size: 15px;
+        color: white;
+        margin-bottom: 6px;
+    }
+    .liconos{
+        width: 100%;
+        list-style: none;
+        display: inline;
+    
+    }
+    .liconos a{
+        text-decoration: none;
+    }
+    .aiconos i{
+        padding: 6px;
+        font-size: 20px;
+        color: white;
+    }
+}
+
+
+
+@media screen and (max-width: 1024px){
+    .texto1{ 
+        border: 1px solid rgb(151, 151, 151); 
+        border-radius: 2px;
+        margin-bottom: 15px;
+        width: 400px;
+        padding: 15px;
+    }
+    .texto2{
+        border: 1px solid rgb(151, 151, 151); 
+        border-radius: 2px;
+        margin-bottom: 15px;
+        width: 400px;
+        height: 120px;
+        padding: 15px;
+    }
+    .texto3{
+        border: 1px;
+        border-radius: 2px;
+        padding: 13px;
+        width: 100px;
+        background-color: rgb(100, 121, 218);
+        color: white;
+    }
+    .contactanosimagen{
+        display: flex;
+        justify-content: center;
+    }
+    .contactanosimagen img{
+        margin: 40px;
+        width: 80%;
+        margin-right: 30px;
+        height: 400px;
+    }
+    
+}
+@media screen and (max-width: 768px){
+    .texto1{ 
+        border: 1px solid rgb(151, 151, 151); 
+        border-radius: 2px;
+        margin-bottom: 15px;
+        width: 300px;
+        padding: 15px;
+    }
+    .texto2{
+        border: 1px solid rgb(151, 151, 151); 
+        border-radius: 2px;
+        margin-bottom: 15px;
+        width: 300px;
+        height: 120px;
+        padding: 15px;
+    }
+    .texto3{
+        border: 1px;
+        border-radius: 2px;
+        padding: 13px;
+        width: 100px;
+        background-color: rgb(100, 121, 218);
+        color: white;
+    }
+    .contactanosimagen{
+        display: flex;
+        justify-content: center;
+    }
+    .contactanosimagen img{
+        margin: 40px;
+        width: 80%;
+        margin-right: 30px;
+        height: 300px;
+    }
+    
+}
+@media screen and (max-width: 600px){
+
+    .PadreContacto{
+        display: flex;
+        width: 100%;
+        height: 900px;
+        flex-wrap: wrap;
+    }
+    .ContenedorDatos{
+        width: 100%;
+        margin-top: 80px;
+        margin-left: 0;
+    }
+    .ContenedorFormulario{
+        width: 100%;
+    }
+    
+    .h2editar0{
+        text-align: center;
+        color: rgb(100, 121, 218);
+        margin-bottom: 15px;
+        margin-top: 10px;
+        font-size: 1.5em;
+    }
+    .h2editar{
+        text-align: center;
+        color: rgb(100, 121, 218);
+        margin-bottom: 15px;
+        margin-top: 10px;
+        font-size: 1.5em;
+    }
+    .h2editar0:hover{
+        border-bottom: 5px solid rgb(182, 171, 247);
+        width: 150px;
+        padding-bottom: 2px;
+        cursor: pointer;
+        color: rgb(151, 163, 250);
+        transition: 0.4s;
+        
+    }
+    .h2editar:hover{
+        border-bottom: 5px solid rgb(182, 171, 247);
+        width: 200px;
+        padding-bottom: 2px;
+        cursor: pointer;
+        color: rgb(151, 163, 250);
+        transition: 0.4s;
+        
+    }
+    .ContenedorDatos p{
+        padding: 6px;
+        text-align: center;
+    }
+    .ContenedorDatos a{
+        text-decoration: none;
+        color: black;
+    }
+    .SocialMedia{
+        display: flex;
+        justify-content: center;
+    }
+    .SocialMedia li{
+        list-style: none;
+        display: inline;
+        justify-content: center;
+    }
+    .SocialMedia i{
+        font-size: 35px;
+        padding: 5px;
+        color: rgb(100, 121, 218);;
+    }
+    form{
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .CajaFormulario{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 80px;
+    
+    }
+    .texto1{ 
+        border: 1px solid rgb(151, 151, 151); 
+        border-radius: 2px;
+        margin-bottom: 15px;
+        width: 500px;
+        padding: 15px;
+    }
+    .texto2{
+        border: 1px solid rgb(151, 151, 151); 
+        border-radius: 2px;
+        margin-bottom: 15px;
+        width: 500px;
+        height: 120px;
+        padding: 15px;
+    }
+    .texto3{
+        border: 1px;
+        border-radius: 2px;
+        padding: 13px;
+        width: 100px;
+        background-color: rgb(100, 121, 218);
+        color: white;
+    }
+    .contactanosimagen{
+        display: flex;
+        justify-content: center;
+    }
+    .contactanosimagen img{
+        margin: 40px;
+        width: 80%;
+        margin-right: 30px;
+        height: 300px;
+    }
+    .divcontenedor{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .divfooterpadre{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .divfooterpadre2{
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+        width: 100%;
+    }
+    .divfooterpadre li{
+        display: inline;
+    
+    }
+    .footerul{
+        list-style: none;
+        margin-top: 10px;
+    }
+    .footerli a{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+        margin-left: 0;
+    }
+    .footerul h4{
+        text-align: center;
+        color: white;
+        font-size: 15px;
+        margin-left: 0;
+        margin-bottom: 6px;
+    }
+    .divfooterpadre2{
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .footerul2 h3{
+        font-size: 15px;
+        color: white;
+        margin-bottom: 6px;
+    }
+    .liconos{
+        width: 100%;
+        list-style: none;
+        display: inline;
+    
+    }
+    .liconos a{
+        text-decoration: none;
+    }
+    .aiconos i{
+        padding: 6px;
+        font-size: 20px;
+        color: white;
+    }
+}
+@media screen and (max-width: 480px){
+
+    .PadreContacto{
+        display: flex;
+        width: 100%;
+        height: 760px;
+        flex-wrap: wrap;
+    }
+    .ContenedorDatos{
+        width: 100%;
+        margin-top: 80px;
+        margin-left: 0;
+    }
+    .ContenedorFormulario{
+        width: 100%;
+    }
+    
+    .h2editar0{
+        text-align: center;
+        color: rgb(100, 121, 218);
+        margin-bottom: 15px;
+        margin-top: 10px;
+        font-size: 1.5em;
+    }
+    .h2editar{
+        text-align: center;
+        color: rgb(100, 121, 218);
+        margin-bottom: 15px;
+        margin-top: 10px;
+        font-size: 1.5em;
+    }
+    .h2editar0:hover{
+        border-bottom: 5px solid rgb(182, 171, 247);
+        width: 150px;
+        padding-bottom: 2px;
+        cursor: pointer;
+        color: rgb(151, 163, 250);
+        transition: 0.4s;
+        
+    }
+    .h2editar:hover{
+        border-bottom: 5px solid rgb(182, 171, 247);
+        width: 200px;
+        padding-bottom: 2px;
+        cursor: pointer;
+        color: rgb(151, 163, 250);
+        transition: 0.4s;
+        
+    }
+    .ContenedorDatos p{
+        padding: 6px;
+        text-align: center;
+    }
+    .ContenedorDatos a{
+        text-decoration: none;
+        color: black;
+    }
+    .SocialMedia{
+        display: flex;
+        justify-content: center;
+    }
+    .SocialMedia li{
+        list-style: none;
+        display: inline;
+        justify-content: center;
+    }
+    .SocialMedia i{
+        font-size: 35px;
+        padding: 5px;
+        color: rgb(100, 121, 218);;
+    }
+    form{
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .CajaFormulario{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 80px;
+    
+    }
+    .texto1{ 
+        border: 1px solid rgb(151, 151, 151); 
+        border-radius: 2px;
+        margin-bottom: 15px;
+        width: 300px;
+        padding: 15px;
+    }
+    .texto2{
+        border: 1px solid rgb(151, 151, 151); 
+        border-radius: 2px;
+        margin-bottom: 15px;
+        width: 300px;
+        height: 120px;
+        padding: 15px;
+    }
+    .texto3{
+        border: 1px;
+        border-radius: 2px;
+        padding: 13px;
+        width: 100px;
+        background-color: rgb(100, 121, 218);
+        color: white;
+    }
+    .contactanosimagen{
+        display: flex;
+        justify-content: center;
+    }
+    .contactanosimagen img{
+        margin: 40px;
+        width: 80%;
+        margin-right: 30px;
+        height: 200px;
+    }
+    .divcontenedor{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .divfooterpadre{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .divfooterpadre2{
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+        width: 100%;
+    }
+    .divfooterpadre li{
+        display: inline;
+    
+    }
+    .footerul{
+        list-style: none;
+        margin-top: 10px;
+    }
+    .footerli a{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+        margin-left: 0;
+    }
+    .footerul h4{
+        text-align: center;
+        color: white;
+        font-size: 15px;
+        margin-left: 0;
+        margin-bottom: 6px;
+    }
+    .divfooterpadre2{
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .footerul2 h3{
+        font-size: 15px;
+        color: white;
+        margin-bottom: 6px;
+    }
+    .liconos{
+        width: 100%;
+        list-style: none;
+        display: inline;
+    
+    }
+    .liconos a{
+        text-decoration: none;
+    }
+    .aiconos i{
+        padding: 6px;
+        font-size: 20px;
+        color: white;
+    }
+}
