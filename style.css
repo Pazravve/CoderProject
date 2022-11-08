@@ -595,6 +595,53 @@ form{
 .productosimage img{
     width: 205vh;
 }
+.card{
+    display: flex;
+    margin: 10px;
+    width: 100%;
+}
+.row{
+    margin-right: 0;
+}
+.ProductoForm{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.Formulario1{
+    height: 10%;
+}
+.Formulario1 input{
+    padding: 4px;
+    border: 1px;
+    border-radius: 5px;
+    background-color: rgb(100, 121, 218);
+    color: white;
+    margin-bottom: 3px;
+}
+.BottonsProduct{
+    display: flex;
+    justify-content: flex-start;
+    height: 0;
+}
+.BottonsProduct form{
+    display: inline;
+}
+.BottonsProduct input{
+    padding: 5px;
+    border: 1px;
+    border-radius: 5px;
+    color: white;
+    background-color:  rgb(70, 126, 190);
+}
+.Ver-masCard{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+
 
 @media screen and (max-width: 1200px){
     .padrefotos{
