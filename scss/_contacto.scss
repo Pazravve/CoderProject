@@ -1,0 +1,428 @@
+    .contactanosimagen{
+        @include display-flex-just;
+        img{
+            margin: 40px;
+            width: 80%;
+            margin-right: 30px;
+            height: 500px;
+        }
+    }
+
+
+.PadreContacto{
+    display: flex;
+    width: 100%;
+    .ContenedorDatos{
+        width: 50%;
+        margin-top: 80px;
+        margin-left: 50px;
+        .h2editar0{
+            color: $color_principal;
+            margin-bottom: 15px;
+            margin-top: 10px;
+            font-size: 1.5em;
+            &:hover{
+                border-bottom: 5px solid $color_principal;
+                width: 150px;
+                padding-bottom: 2px;
+                cursor: pointer;
+                color: $color_principal;
+                transition: 0.4s;
+            }
+        }
+        p{
+            padding: 6px;
+            a{
+                text-decoration: none;
+                color: black;
+            }
+        }
+        .h2editar{
+            color: $color_principal;
+            margin-bottom: 15px;
+            margin-top: 10px;
+            font-size: 1.5em;
+            &:hover{
+                border-bottom: 5px solid $color_nav1;
+                width: 200px;
+                padding-bottom: 2px;
+                cursor: pointer;
+                color: $color_principal;
+                transition: 0.4s;
+            }
+        }
+        .SocialMedia{
+            display: flex;
+            justify-content: flex-start;
+            ul{
+                li{
+                    list-style: none;
+                    display: inline;
+                    i{
+                        font-size: 35px;
+                        padding: 5px;
+                        color: $color_principal;
+                    }
+                }
+            }
+        }
+    }
+    .ContenedorFormulario{
+        width: 50%;
+        .CajaFormulario{
+            @include dis-flex-100;
+            margin-top: 80px;
+            form{
+                height: 500px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                label{
+                    color: $color_principal;
+                    width: 100%;
+                    margin-bottom: 6px;
+                    display: flex;
+                    justify-content: flex-start;
+                }
+                .texto1{
+                    border: 1px solid $color_borderform; 
+                    border-radius: 2px;
+                    margin-bottom: 15px;
+                    width: 500px;
+                    padding: 15px;
+                }
+                .texto2{
+                    border: 1px solid $color_borderform; 
+                    border-radius: 2px;
+                    margin-bottom: 15px;
+                    width: 500px;
+                    height: 120px;
+                    padding: 15px;
+                }
+                .texto3{
+                    border: 1px;
+                    border-radius: 2px;
+                    padding: 13px;
+                    width: 100px;
+                    background-color: $color_principal;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+@media screen and(max-width: 1024px){
+    .PadreContacto{
+        .ContenedorDatos{
+        }
+        .ContenedorFormulario{
+            .texto1{
+                border: 1px solid $color_shadow; 
+                border-radius: 2px;
+                margin-bottom: 15px;
+                width: 400px;
+                padding: 15px;
+            }
+            .texto2{
+                border: 1px solid $color_shadow; 
+                border-radius: 2px;
+                margin-bottom: 15px;
+                width: 400px;
+                height: 120px;
+                padding: 15px;
+            }
+            .texto3{
+                border: 1px;
+                border-radius: 2px;
+                padding: 13px;
+                width: 100px;
+                background-color: $color_principal;
+                color: white;
+            }
+        }
+    }
+
+    .contactanosimagen{
+        @include display-flex-just;
+        img{
+            margin: 40px;
+            width: 80%;
+            margin-right: 30px;
+            height: 400px;
+        }
+    }
+}
+@media screen and(max-width: 768px){
+    .PadreContacto{
+        .ContenedorDatos{
+        }
+        .ContenedorFormulario{
+            .texto1{
+                border: 1px solid $color_lightshadow; 
+                border-radius: 2px;
+                margin-bottom: 15px;
+                width: 300px;
+                padding: 15px;
+            }
+            .texto2{
+                border: 1px solid $color_lightshadow; 
+                border-radius: 2px;
+                margin-bottom: 15px;
+                width: 300px;
+                height: 120px;
+                padding: 15px;
+            }
+            .texto3{
+                border: 1px;
+                border-radius: 2px;
+                padding: 13px;
+                width: 100px;
+                background-color: $color_principal;
+                color: white;
+            }
+        }
+    }
+    
+    .contactanosimagen{
+        @include display-flex-just;
+        img{
+            margin: 40px;
+            width: 80%;
+            margin-right: 30px;
+            height: 300px;
+        }
+    }
+}
+
+@media screen and(max-width: 600px){
+    .PadreContacto{
+        display: flex;
+        width: 100%;
+        height: 900px;
+        flex-wrap: wrap;
+        .ContenedorDatos{
+            width: 100%;
+            margin-top: 80px;
+            margin-left: 0;
+            .h2editar0{
+                text-align: center;
+                color: $color_principal;
+                margin-bottom: 15px;
+                margin-top: 10px;
+                font-size: 1.5em;
+                &:hover{
+                    border-bottom: 5px solid $color_nav2;
+                    width: 150px;
+                    padding-bottom: 2px;
+                    cursor: pointer;
+                    color: rgb(151, 163, 250);
+                    transition: 0.4s;
+                }
+            p{
+                padding: 6px;
+                text-align: center;
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+            }
+            .h2editar{
+                text-align: center;
+                color: $color_principal;
+                margin-bottom: 15px;
+                margin-top: 10px;
+                font-size: 1.5em;
+                &:hover{
+                    border-bottom: 5px solid $color_nav2;
+                    width: 200px;
+                    padding-bottom: 2px;
+                    cursor: pointer;
+                    color: $color_nav2;
+                    transition: 0.4s;
+                }
+            }
+            .SocialMedia{
+                @include display-flex-just;
+                li{
+                    list-style: none;
+                    display: inline;
+                    justify-content: center;
+                    a{
+                        font-size: 35px;
+                        padding: 5px;
+                        color: $color_principal;
+                    }
+                }
+            }
+        }
+
+
+
+        .ContenedorFormulario{
+            width: 100%;
+            .CajaFormulario{
+                @include display-flex-just;
+                width: 100%;
+                margin-top: 80px;
+                form{
+                    height: 500px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    .texto1{
+                        border: 1px solid $color_lightshadow; 
+                        border-radius: 2px;
+                        margin-bottom: 15px;
+                        width: 500px;
+                        padding: 15px;
+                    }
+                    .texto2{
+                        border: 1px solid $color_lightshadow; 
+                        border-radius: 2px;
+                        margin-bottom: 15px;
+                        width: 500px;
+                        height: 120px;
+                        padding: 15px;
+                    }
+                    .texto3{
+                        border: 1px;
+                        border-radius: 2px;
+                        padding: 13px;
+                        width: 100px;
+                        background-color: $color_principal;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+    
+    .contactanosimagen{
+        @include display-flex-just;
+        img{
+            margin: 40px;
+            width: 80%;
+            margin-right: 30px;
+            height: 300px;
+        }
+    }
+}
+
+
+@media screen and(max-width: 480px){
+    .PadreContacto{
+        display: flex;
+        width: 100%;
+        height: 760px;
+        flex-wrap: wrap;
+        .ContenedorDatos{
+            width: 100%;
+            margin-top: 80px;
+            margin-left: 0;
+            .h2editar0{
+                text-align: center;
+                color: $color_principal;
+                margin-bottom: 15px;
+                margin-top: 10px;
+                font-size: 1.5em;
+                &:hover{
+                    border-bottom: 5px solid $color_nav2;
+                    width: 150px;
+                    padding-bottom: 2px;
+                    cursor: pointer;
+                    color: $color_nav2;
+                    transition: 0.4s;
+                }
+            p{
+                padding: 6px;
+                text-align: center;
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+            }
+            .h2editar{
+                text-align: center;
+                color: $color_principal;
+                margin-bottom: 15px;
+                margin-top: 10px;
+                font-size: 1.5em;
+                &:hover{
+                    border-bottom: 5px solid $color_nav1;
+                    width: 200px;
+                    padding-bottom: 2px;
+                    cursor: pointer;
+                    color: $color_nav2;
+                    transition: 0.4s;
+                }
+            }
+            .SocialMedia{
+                @include display-flex-just;
+                li{
+                    list-style: none;
+                    display: inline;
+                    justify-content: center;
+                    a{
+                        font-size: 35px;
+                        padding: 5px;
+                        color: $color_principal;
+                    }
+                }
+            }
+        }
+
+
+
+        .ContenedorFormulario{
+            width: 100%;
+            .CajaFormulario{
+                @include display-flex-just;
+                width: 100%;
+                margin-top: 80px;
+                form{
+                    height: 500px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    .texto1{
+                        border: 1px solid $color_shadow; 
+                        border-radius: 2px;
+                        margin-bottom: 15px;
+                        width: 300px;
+                        padding: 15px;
+                    }
+                    .texto2{
+                        border: 1px solid $color_shadow; 
+                        border-radius: 2px;
+                        margin-bottom: 15px;
+                        width: 300px;
+                        height: 120px;
+                        padding: 15px;
+                    }
+                    .texto3{
+                        border: 1px;
+                        border-radius: 2px;
+                        padding: 13px;
+                        width: 100px;
+                        background-color: $color_principal;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+    
+    .contactanosimagen{
+        @include display-flex-just;
+        img{
+            margin: 40px;
+            width: 80%;
+            margin-right: 30px;
+            height: 200px;
+        }
+    }
+}
+

@@ -1,0 +1,100 @@
+.seccionNosotros{
+    .padreDivNosotros{
+        display: flex;
+        width: 100%;
+        .divNosotros{
+            margin-top: 20px;
+            width: 50%;
+            h2{
+                text-align: center;
+                font-family: 'Lexend Deca', sans-serif;
+                color:  $color_principal;
+            }
+            p{
+                margin-top: 20px;
+                margin-bottom: 100px;
+                margin-left: 80px;
+                width: 500px;
+                line-height: 25px;
+                direction: ltr;
+            }
+        }
+        .nosotrosImagen{
+            @include display-flex-just;
+            width: 50%;
+        }
+    }
+    .padreDivNosotros2{
+        display: flex;
+        width: 100%;
+        .divNosotros2{
+            width: 50%;
+            h2{
+                text-align: center;
+                font-family: 'Lexend Deca', sans-serif;
+                color: $color_principal;
+            }
+            p{
+                margin-top: 20px;
+                margin-bottom: 100px;
+                margin-left: 80px;
+                width: 500px;
+                line-height: 25px;
+                direction: rtl;
+            }
+        }
+        .nosotrosImagen2{
+            width: 50%;
+            @include display-flex-just;
+        }
+    }
+    .padreDivNosotros3{
+        display: flex;
+        width: 100%;
+        .divNosotros3{
+            h2{
+                text-align: center;
+                font-family: 'Lexend Deca', sans-serif;
+                color:  $color_principal;
+            }
+            p{
+                margin-top: 20px;
+                margin-bottom: 100px;
+                margin-left: 80px;
+                width: 500px;
+                line-height: 25px;
+                direction: ltr;
+            }
+        }
+    }
+    .padreDivNosotros4{
+        display: flex;
+        width: 100%;
+        .nosotrosImagen4{
+            width: 50%;
+            @include display-flex-just;
+            .img{
+                width: 400px;
+                border: 1px solid $color_borderwhite;
+                border-radius: 200px;
+                height: 400px;
+            }
+        }
+        .divNosotros4{
+            width: 50%;
+            h2{
+                text-align: center;
+                font-family: 'Lexend Deca', sans-serif;
+                color: $color_principal;
+            }
+            p{
+                margin-top: 20px;
+                margin-bottom: 100px;
+                margin-left: 80px;
+                width: 500px;
+                line-height: 25px;
+                direction: rtl;
+            }
+        }
+    }
+}

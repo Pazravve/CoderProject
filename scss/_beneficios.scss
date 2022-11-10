@@ -1,0 +1,106 @@
+.opciones{
+    @include display-flex-just;
+    margin-top: 90px;
+    height: 300px;
+    width: 100%;
+    .div1{
+        li{
+            display: inline;
+            list-style: none;
+            text-decoration: none;
+            width: 100%;
+            i{
+                width: 100%;
+                text-align: center;
+                font-size: 80px;
+            }
+            .oph3{
+                margin: 6px;
+                text-align: center;
+            }
+            .opcionp{
+                font-size: 14px;
+                margin: 6px;
+                padding: 10px;
+                text-align: center;
+                align-items: center;
+            }
+        }
+    }
+    .div2{
+        .liopciones{
+            i{
+                width: 100%;
+                text-align: center;
+                font-size: 80px;
+            }
+            .oph3{
+                margin: 6px;
+                text-align: center;
+            }
+            .opcionp{
+                font-size: 14px;
+                margin: 6px;
+                padding: 10px;
+                text-align: center;
+                align-items: center;
+            }
+        }
+    }
+    .div3{
+        .liopciones{
+            i{
+                width: 100%;
+                text-align: center;
+                font-size: 80px;
+            }
+            .oph3{
+                margin: 6px;
+                text-align: center;
+            }
+            .opcionp{
+                font-size: 14px;
+                margin: 6px;
+                padding: 10px;
+                text-align: center;
+                align-items: center;
+            }
+        }
+    }
+}
+
+@media screen and(max-width: 600px){
+    .opciones{
+        @include display-flex-just;
+        margin-top: 90px;
+        height: 500px;
+        width: 100%;
+        flex-wrap: wrap;
+        .div1{
+            .liopciones{
+                display: inline;
+                list-style: none;
+                width: 100%;
+                margin: 10px;
+                i{
+                    @include display-flex-just;
+                    font-size: 65px;
+                }
+                .oph3{
+                    font-size: 15px;
+                    text-align: center;
+                    
+                }
+                .opcionp{
+                    font-size: 14px;
+                    padding: 5px;
+                    text-align: center;
+                    align-items: center;
+                }
+            }
+        }
+        .div3{
+            flex-wrap: wrap;
+        }
+    }
+}

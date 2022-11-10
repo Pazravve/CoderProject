@@ -1,0 +1,69 @@
+.seccionprincipal{
+    background-color:$color_principal;
+    header{
+        .DIVDETODO{
+                display: flex;
+                .principalNavBar{
+                    display: flex;
+                    align-items: flex-end;
+                    justify-content: center;
+                    text-align: center;
+                    width: 100%;
+                    margin-top: 40px;
+                    margin-bottom: 40px;
+                    .NavBar{
+                        ul{
+                            text-align: center;
+                            li{
+                                margin-bottom: 5px;
+                                padding: 20px;
+                                display: inline;
+                                list-style: none;
+                                font-size: 20px;
+                                font-family: 'Lexend Deca', sans-serif;
+                                a{
+                                    text-decoration: none;
+                                    color: white;
+                                    &:hover{
+                                        color: rgb(216, 225, 241);
+                                        transition: 0.2s;
+                                        border-bottom: 5px solid rgb(182, 171, 247);
+                                        width: 110px;
+                                        padding-bottom: 2px;
+                                        cursor: pointer;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+
+@media screen and(max-width: 600px){
+    .NavBar{
+        li{
+            margin-bottom: 5px;
+            padding: 15px;
+            display: inline;
+            list-style: none;
+            font-size: 16px;
+            font-family: 'Lexend Deca', sans-serif;
+        }
+    }
+}
+
+@media screen and(max-width: 480px){
+    .NavBar{
+        li{
+            margin-bottom: 5px;
+            padding: 10px;
+            display: inline;
+            list-style: none;
+            font-size: 14px;
+            font-family: 'Lexend Deca', sans-serif;
+        }
+    }
+}

@@ -1,0 +1,195 @@
+.FRMC-1{
+    @include display-flex-just;
+    width: 100%;
+    .CF-1{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.UniteFamily{
+    color: $color_darkblue;
+    @include display-flex-just;
+    margin-top: 7vh;
+    font-size: 3.5vh;
+}
+
+@media screen and(max-width: 768px){
+    .UniteFamily{
+        margin-top: 4vh;
+        font-size: 2.5vh;
+        text-align: center;
+    }
+
+    .divcontenedor{
+        .divfooterpadre{
+            @include dis-flex-100;
+            .footerul{
+                list-style: none;
+                margin-top: 10px;
+                h4{
+                    text-align: center;
+                    color: white;
+                    font-size: 20px;
+                    margin-left: 0;
+                    margin-bottom: 6px;
+                }
+                li{
+                    display: inline;
+                    a{
+                        text-decoration: none;
+                        color: white;
+                        font-size: 15px;
+                        margin-left: 0;
+                    }
+                }
+            }
+            .divfooterpadre2{
+                @include dis-flex-100;
+                margin-left: 0;
+                margin-top: 0;
+                .footerul2{
+                    h3{
+                        font-size: 20px;
+                        color: white;
+                        margin-bottom: 6px;
+                    }
+                    .liconos{
+                        width: 100%;
+                        list-style: none;
+                        display: inline;
+                        a{
+                            text-decoration: none;
+                            i{
+                                padding: 6px;
+                                font-size: 25px;
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and(max-width: 600px){
+    .UniteFamily{
+        margin-top: 4vh;
+        font-size: 2.5vh;
+        text-align: center;
+    }
+
+    .divcontenedor{
+        width: 100%;
+        flex-wrap: wrap;
+        .divfooterpadre{
+            @include dis-flex-100;
+            .footerul{
+                list-style: none;
+                margin-top: 10px;
+                h4{
+                    text-align: center;
+                    color: white;
+                    font-size: 15px;
+                    margin-left: 0;
+                    margin-bottom: 6px;
+                }
+                .footerli{
+                    display: inline;
+                    a{
+                        text-decoration: none;
+                        color: white;
+                        font-size: 12px;
+                        margin-left: 0;
+                    }
+                }
+            }
+            .divfooterpadre2{
+                @include dis-flex-100;
+                margin-left: 0;
+                margin-top: 0;
+                .footerul2{
+                    h3{
+                        font-size: 15px;
+                        color: white;
+                        margin-bottom: 6px;
+                    }
+                    .liconos{
+                        width: 100%;
+                        list-style: none;
+                        display: inline;
+                        a{
+                            text-decoration: none;
+                            i{
+                                padding: 6px;
+                                font-size: 20px;
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+@media screen and(max-width: 480px){
+    .UniteFamily{
+        margin-top: 4vh;
+        font-size: 2.2vh;
+        text-align: center;
+}
+    .divcontenedor{
+        width: 100%;
+        flex-wrap: wrap;
+        .divfooterpadre{
+            @include dis-flex-100;
+            .footerul{
+                list-style: none;
+                margin-top: 10px;
+                h4{
+                    text-align: center;
+                    color: white;
+                    font-size: 15px;
+                    margin-left: 0;
+                    margin-bottom: 6px;
+                }
+                .footerli{
+                    display: inline;
+                    a{
+                        text-decoration: none;
+                        color: white;
+                        font-size: 12px;
+                        margin-left: 0;
+                    }
+                }
+            }
+            .divfooterpadre2{
+                @include dis-flex-100;
+                margin-left: 0;
+                margin-top: 10;
+                .footerul2{
+                    h3{
+                        font-size: 15px;
+                        color: white;
+                        margin-bottom: 6px;
+                    }
+                    .liconos{
+                        width: 100%;
+                        list-style: none;
+                        display: inline;
+                        a{
+                            text-decoration: none;
+                            i{
+                                padding: 6px;
+                                font-size: 20px;
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

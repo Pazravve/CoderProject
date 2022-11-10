@@ -1,0 +1,50 @@
+.row{
+    margin-right: 0;
+    .col{
+        .card{
+            display: flex;
+            margin: 10px;
+            width: 100%;
+        }
+        .ProductoForm{
+            @include display-flex-just;
+            margin: 0;
+            padding: 0;
+            .Formulario1{
+                height: 10%;
+                input{
+                    padding: 4px;
+                    border: 1px;
+                    border-radius: 5px;
+                    background-color: $color_principal;
+                    color: white;
+                    margin-bottom: 3px;
+                }
+            }
+        }
+    }
+}
+
+
+.BottonsProduct{
+    display: flex;
+    justify-content: flex-start;
+    height: 0;
+    form{
+        display: inline;
+        input{
+            padding: 5px;
+            border: 1px;
+            border-radius: 5px;
+            color: white;
+            background-color:  $color_principal;
+        }
+    }
+}
+
+
+.Ver-masCard{
+    margin-top: 100px;
+    @include display-flex-just;
+}
+
