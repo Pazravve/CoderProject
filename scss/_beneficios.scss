@@ -4,7 +4,7 @@
     height: 300px;
     width: 100%;
     .div1{
-        li{
+        .liopciones{
             display: inline;
             list-style: none;
             text-decoration: none;
@@ -29,6 +29,10 @@
     }
     .div2{
         .liopciones{
+            display: inline;
+            list-style: none;
+            text-decoration: none;
+            width: 100%;
             i{
                 width: 100%;
                 text-align: center;
@@ -49,6 +53,10 @@
     }
     .div3{
         .liopciones{
+            display: inline;
+            list-style: none;
+            text-decoration: none;
+            width: 100%;
             i{
                 width: 100%;
                 text-align: center;
