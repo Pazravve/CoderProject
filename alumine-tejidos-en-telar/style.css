@@ -770,254 +770,75 @@
       width: 100%;
       height: 100px; } }
 
-.seccionNosotros .padreDivNosotros {
+.carousel {
   display: flex;
+  justify-content: center; }
+  .carousel .ContenedorCarrusel {
+    width: 90%; }
+
+.SeccionAboutUs {
+  display: flex;
+  justify-content: center;
   width: 100%; }
-  .seccionNosotros .padreDivNosotros .divNosotros {
-    margin-top: 20px;
-    width: 50%; }
-    .seccionNosotros .padreDivNosotros .divNosotros h2 {
-      text-align: center;
-      font-family: 'Lexend Deca', sans-serif;
-      color: #467ebe; }
-    .seccionNosotros .padreDivNosotros .divNosotros p {
-      margin-top: 20px;
-      margin-bottom: 100px;
-      margin-left: 80px;
-      width: 500px;
-      line-height: 25px;
-      direction: ltr; }
-  .seccionNosotros .padreDivNosotros .nosotrosImagen {
+  .SeccionAboutUs .ContenedorAboutUs .TituloPrincipal {
+    text-align: center;
+    margin: 50px; }
+  .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs {
+    margin-top: 100px;
+    width: 100%;
     display: flex;
     justify-content: center;
-    width: 50%; }
-
-.seccionNosotros .padreDivNosotros2 {
-  display: flex;
-  width: 100%; }
-  .seccionNosotros .padreDivNosotros2 .divNosotros2 {
-    width: 50%; }
-    .seccionNosotros .padreDivNosotros2 .divNosotros2 h2 {
-      text-align: center;
-      font-family: 'Lexend Deca', sans-serif;
-      color: #467ebe; }
-    .seccionNosotros .padreDivNosotros2 .divNosotros2 p {
-      margin-top: 20px;
-      margin-bottom: 100px;
-      margin-left: 80px;
-      width: 500px;
-      line-height: 25px;
-      direction: rtl; }
-  .seccionNosotros .padreDivNosotros2 .nosotrosImagen {
-    width: 50%;
-    height: 400px; }
-  .seccionNosotros .padreDivNosotros2 .nosotrosImagen2 {
-    width: 50%;
-    display: flex;
-    justify-content: center; }
-
-.seccionNosotros .padreDivNosotros3 {
-  display: flex;
-  width: 100%; }
-  .seccionNosotros .padreDivNosotros3 .divNosotros3 h2 {
-    text-align: center;
-    font-family: 'Lexend Deca', sans-serif;
-    color: #467ebe; }
-  .seccionNosotros .padreDivNosotros3 .divNosotros3 p {
-    margin-top: 20px;
-    margin-bottom: 100px;
-    margin-left: 80px;
-    width: 500px;
-    line-height: 25px;
-    direction: ltr; }
-
-.seccionNosotros .padreDivNosotros4 {
-  display: flex;
-  width: 100%; }
-  .seccionNosotros .padreDivNosotros4 .nosotrosImagen4 {
-    width: 50%;
-    display: flex;
-    justify-content: center; }
-    .seccionNosotros .padreDivNosotros4 .nosotrosImagen4 .img {
-      width: 400px;
-      border: 1px solid #e6e3e3;
-      border-radius: 200px;
-      height: 400px; }
-  .seccionNosotros .padreDivNosotros4 .divNosotros4 {
-    width: 50%; }
-    .seccionNosotros .padreDivNosotros4 .divNosotros4 h2 {
-      text-align: center;
-      font-family: 'Lexend Deca', sans-serif;
-      color: #467ebe; }
-    .seccionNosotros .padreDivNosotros4 .divNosotros4 p {
-      margin-top: 20px;
-      margin-bottom: 100px;
-      margin-left: 80px;
-      width: 500px;
-      line-height: 25px;
-      direction: rtl; }
-
-@media screen and (max-width: 1024px) {
-  .seccionNosotros .padreDivNosotros {
-    display: flex; }
-    .seccionNosotros .padreDivNosotros .divNosotros {
-      margin-top: 20px;
+    flex-wrap: wrap; }
+    .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs1 {
       width: 50%; }
-      .seccionNosotros .padreDivNosotros .divNosotros h2 {
+      .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs1 h3 {
         text-align: center;
-        font-family: 'Lexend Deca', sans-serif;
-        color: #467ebe; }
-      .seccionNosotros .padreDivNosotros .divNosotros p {
-        margin-top: 20px;
-        margin-bottom: 100px;
-        margin-left: 80px;
-        width: 70%;
-        line-height: 25px;
-        direction: ltr; }
-    .seccionNosotros .padreDivNosotros .nosotrosImagen {
-      display: flex;
-      justify-content: center;
-      width: 50%; }
-  .seccionNosotros .padreDivNosotros2 {
-    display: flex;
-    width: 100%; }
-    .seccionNosotros .padreDivNosotros2 .divNosotros2 {
-      width: 50%; }
-      .seccionNosotros .padreDivNosotros2 .divNosotros2 h2 {
-        text-align: center;
-        font-family: 'Lexend Deca', sans-serif;
-        color: #467ebe; }
-      .seccionNosotros .padreDivNosotros2 .divNosotros2 p {
-        margin-top: 20px;
-        margin-bottom: 100px;
-        margin-left: 80px;
-        width: 50%;
-        line-height: 25px;
-        direction: rtl; }
-  .seccionNosotros .padreDivNosotros3 {
-    display: flex;
-    width: 100%; }
-    .seccionNosotros .padreDivNosotros3 .divNosotros3 h2 {
-      margin-left: 80px;
-      display: flex;
-      justify-content: flex-start;
-      font-family: 'Lexend Deca', sans-serif;
-      color: #467ebe; }
-    .seccionNosotros .padreDivNosotros3 .divNosotros3 p {
-      margin-top: 20px;
-      margin-bottom: 100px;
-      margin-left: 80px;
-      width: 50%;
-      line-height: 25px;
-      direction: ltr; }
-  .seccionNosotros .padreDivNosotros4 {
-    display: flex;
-    width: 100%; }
-    .seccionNosotros .padreDivNosotros4 .nosotrosImagen4 {
-      width: 50%;
-      display: flex;
-      justify-content: center; }
-      .seccionNosotros .padreDivNosotros4 .nosotrosImagen4 .img {
-        width: 400px;
-        border: 1px solid #e6e3e3;
-        border-radius: 200px;
-        height: 400px; }
-    .seccionNosotros .padreDivNosotros4 .divNosotros4 {
-      width: 50%; }
-      .seccionNosotros .padreDivNosotros4 .divNosotros4 h2 {
-        margin-left: 20px;
+        color: #404f61; }
+      .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs1 .contenedorP {
         display: flex;
-        justify-content: center;
-        font-family: 'Lexend Deca', sans-serif;
-        color: #467ebe; }
-      .seccionNosotros .padreDivNosotros4 .divNosotros4 p {
-        margin-top: 20px;
-        margin-bottom: 100px;
-        margin-left: 80px;
-        width: 50%;
-        line-height: 25px;
-        direction: rtl; } }
-
-@media screen and (max-width: 600px) {
-  .seccionNosotros .padreDivNosotros {
-    display: flex; }
-    .seccionNosotros .padreDivNosotros .divNosotros {
-      margin-top: 20px;
+        justify-content: center; }
+        .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs1 .contenedorP p {
+          text-align: center;
+          width: 50%;
+          color: #3d3232; }
+    .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs2 {
       width: 50%; }
-      .seccionNosotros .padreDivNosotros .divNosotros h2 {
+      .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs2 h3 {
         text-align: center;
-        font-family: 'Lexend Deca', sans-serif;
-        color: #467ebe; }
-      .seccionNosotros .padreDivNosotros .divNosotros p {
-        margin-top: 20px;
-        margin-bottom: 100px;
-        margin-left: 80px;
-        width: 50%;
-        line-height: 25px;
-        direction: ltr; }
-    .seccionNosotros .padreDivNosotros .nosotrosImagen {
-      display: flex;
-      justify-content: center;
-      width: 50%; }
-  .seccionNosotros .padreDivNosotros2 {
-    display: flex;
-    width: 100%; }
-    .seccionNosotros .padreDivNosotros2 .divNosotros2 {
-      width: 50%; }
-      .seccionNosotros .padreDivNosotros2 .divNosotros2 h2 {
-        text-align: center;
-        font-family: 'Lexend Deca', sans-serif;
-        color: #467ebe; }
-      .seccionNosotros .padreDivNosotros2 .divNosotros2 p {
-        margin-top: 20px;
-        margin-bottom: 100px;
-        margin-left: 80px;
-        width: 70%;
-        line-height: 25px;
-        direction: rtl; }
-  .seccionNosotros .padreDivNosotros3 {
-    display: flex;
-    width: 100%; }
-    .seccionNosotros .padreDivNosotros3 .divNosotros3 h2 {
-      margin-left: 80px;
-      display: flex;
-      justify-content: flex-start;
-      font-family: 'Lexend Deca', sans-serif;
-      color: #467ebe; }
-    .seccionNosotros .padreDivNosotros3 .divNosotros3 p {
-      margin-top: 20px;
-      margin-bottom: 100px;
-      margin-left: 80px;
-      width: 50%;
-      line-height: 25px;
-      direction: ltr; }
-  .seccionNosotros .padreDivNosotros4 {
-    display: flex;
-    width: 100%; }
-    .seccionNosotros .padreDivNosotros4 .nosotrosImagen4 {
-      width: 50%;
-      display: flex;
-      justify-content: center; }
-      .seccionNosotros .padreDivNosotros4 .nosotrosImagen4 .img {
-        width: 400px;
-        border: 1px solid #e6e3e3;
-        border-radius: 200px;
-        height: 400px; }
-    .seccionNosotros .padreDivNosotros4 .divNosotros4 {
-      width: 50%; }
-      .seccionNosotros .padreDivNosotros4 .divNosotros4 h2 {
-        margin-left: 20px;
+        color: #404f61; }
+      .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs2 .contenedorP {
         display: flex;
-        justify-content: center;
-        font-family: 'Lexend Deca', sans-serif;
-        color: #467ebe; }
-      .seccionNosotros .padreDivNosotros4 .divNosotros4 p {
-        margin-top: 20px;
-        margin-bottom: 100px;
-        margin-left: 80px;
-        width: 70%;
-        line-height: 25px;
-        direction: rtl; } }
+        justify-content: center; }
+        .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs2 .contenedorP p {
+          text-align: center;
+          width: 50%;
+          color: #3d3232; }
+    .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs3 {
+      width: 50%;
+      margin-top: 100px; }
+      .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs3 h3 {
+        text-align: center;
+        color: #404f61; }
+      .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs3 .contenedorP {
+        display: flex;
+        justify-content: center; }
+        .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs3 .contenedorP p {
+          text-align: center;
+          width: 50%;
+          color: #3d3232; }
+    .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs4 {
+      width: 50%;
+      margin-top: 100px; }
+      .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs4 h3 {
+        text-align: center;
+        color: #404f61; }
+      .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs4 .contenedorP {
+        display: flex;
+        justify-content: center; }
+        .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs4 .contenedorP p {
+          text-align: center;
+          width: 50%;
+          color: #3d3232; }
 
 .row {
   margin-right: 0; }
