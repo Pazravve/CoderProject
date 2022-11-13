@@ -573,94 +573,75 @@
       margin-right: 30px;
       height: 200px; } }
 
-.opciones {
+.SeccionBeneficios {
+  padding-top: 6em;
+  padding-bottom: 6em;
   display: flex;
-  justify-content: center;
-  margin-top: 90px;
-  height: 300px;
-  width: 100%; }
-  .opciones .div1 .liopciones {
-    display: inline;
-    list-style: none;
-    text-decoration: none;
-    width: 100%; }
-    .opciones .div1 .liopciones i {
-      width: 100%;
-      text-align: center;
-      font-size: 80px; }
-    .opciones .div1 .liopciones .oph3 {
-      margin: 6px;
-      text-align: center; }
-    .opciones .div1 .liopciones .opcionp {
-      font-size: 14px;
-      margin: 6px;
-      padding: 10px;
-      text-align: center;
-      align-items: center; }
-  .opciones .div2 .liopciones {
-    display: inline;
-    list-style: none;
-    text-decoration: none;
-    width: 100%; }
-    .opciones .div2 .liopciones i {
-      width: 100%;
-      text-align: center;
-      font-size: 80px; }
-    .opciones .div2 .liopciones .oph3 {
-      margin: 6px;
-      text-align: center; }
-    .opciones .div2 .liopciones .opcionp {
-      font-size: 14px;
-      margin: 6px;
-      padding: 10px;
-      text-align: center;
-      align-items: center; }
-  .opciones .div3 .liopciones {
-    display: inline;
-    list-style: none;
-    text-decoration: none;
-    width: 100%; }
-    .opciones .div3 .liopciones i {
-      width: 100%;
-      text-align: center;
-      font-size: 80px; }
-    .opciones .div3 .liopciones .oph3 {
-      margin: 6px;
-      text-align: center; }
-    .opciones .div3 .liopciones .opcionp {
-      font-size: 14px;
-      margin: 6px;
-      padding: 10px;
-      text-align: center;
-      align-items: center; }
-
-@media screen and (max-width: 600px) {
-  .opciones {
-    display: flex;
-    justify-content: center;
-    margin-top: 90px;
-    height: 500px;
+  width: 100%;
+  justify-content: center; }
+  .SeccionBeneficios .ContenedorBeneficios {
     width: 100%;
-    flex-wrap: wrap; }
-    .opciones .div1 .liopciones {
-      display: inline;
-      list-style: none;
-      width: 100%;
-      margin: 10px; }
-      .opciones .div1 .liopciones i {
+    display: flex; }
+    .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios1 {
+      padding: 25px; }
+      .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios1 .HijitoBeneficios {
         display: flex;
-        justify-content: center;
-        font-size: 65px; }
-      .opciones .div1 .liopciones .oph3 {
-        font-size: 15px;
+        justify-content: center; }
+        .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios1 .HijitoBeneficios i {
+          font-size: 4em;
+          color: #467ebe; }
+      .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios1 h4 {
+        padding: 0.6em;
+        color: #313838;
         text-align: center; }
-      .opciones .div1 .liopciones .opcionp {
-        font-size: 14px;
-        padding: 5px;
-        text-align: center;
-        align-items: center; }
-    .opciones .div3 {
-      flex-wrap: wrap; } }
+      .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios1 .HijitoDescripcion {
+        width: 100%;
+        display: flex;
+        justify-content: center; }
+        .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios1 .HijitoDescripcion p {
+          width: 60%;
+          text-align: center;
+          color: #4c4a52; }
+    .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios2 {
+      padding: 25px; }
+      .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios2 .HijitoBeneficios2 {
+        display: flex;
+        justify-content: center; }
+        .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios2 .HijitoBeneficios2 i {
+          font-size: 4em;
+          color: #467ebe; }
+      .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios2 h4 {
+        padding: 0.6em;
+        color: #313838;
+        text-align: center; }
+      .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios2 .HijitoDescripcion2 {
+        width: 100%;
+        display: flex;
+        justify-content: center; }
+        .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios2 .HijitoDescripcion2 p {
+          width: 60%;
+          text-align: center;
+          color: #4c4a52; }
+    .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios3 {
+      padding: 25px; }
+      .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios3 .HijitoBeneficios3 {
+        display: flex;
+        justify-content: center; }
+        .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios3 .HijitoBeneficios3 i {
+          font-size: 4em;
+          color: #467ebe; }
+      .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios3 h4 {
+        padding: 0.6em;
+        color: #313838;
+        text-align: center; }
+      .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios3 .HijitoDescripcion3 {
+        width: 100%;
+        display: flex;
+        justify-content: center; }
+        .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios3 .HijitoDescripcion3 p {
+          width: 60%;
+          text-align: center;
+          color: #4c4a52; }
 
 .seccionfotos {
   display: flex;

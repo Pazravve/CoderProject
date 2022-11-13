@@ -1,114 +1,91 @@
-.opciones{
-    @include display-flex-just;
-    margin-top: 90px;
-    height: 300px;
+.SeccionBeneficios{
+    padding-top: 6em;
+    padding-bottom: 6em;
+    display: flex;
     width: 100%;
-    .div1{
-        .liopciones{
-            display: inline;
-            list-style: none;
-            text-decoration: none;
-            width: 100%;
-            i{
+    justify-content: center;
+    .ContenedorBeneficios{
+        width: 100%;
+        display: flex;
+        .PadreBeneficios1{
+            padding: 25px;
+            .HijitoBeneficios{
+                display: flex;
+                justify-content: center;
+                i{
+                    font-size: 4em;
+                    color: #467ebe;
+                }
+            }
+            h4{
+                padding: 0.6em;
+                color: rgb(49, 56, 56);
+                text-align: center;
+            }
+            .HijitoDescripcion{
                 width: 100%;
-                text-align: center;
-                font-size: 80px;
-            }
-            .oph3{
-                margin: 6px;
-                text-align: center;
-            }
-            .opcionp{
-                font-size: 14px;
-                margin: 6px;
-                padding: 10px;
-                text-align: center;
-                align-items: center;
+                display: flex;
+                justify-content: center;
+                p{
+                    width: 60%;
+                    text-align: center;
+                    color: rgb(76, 74, 82);
+                }
             }
         }
-    }
-    .div2{
-        .liopciones{
-            display: inline;
-            list-style: none;
-            text-decoration: none;
-            width: 100%;
-            i{
+        .PadreBeneficios2{
+            padding: 25px;
+            .HijitoBeneficios2{
+                display: flex;
+                justify-content: center;
+                i{
+                    font-size: 4em;
+                    color: #467ebe;
+                }
+            }
+            h4{
+                padding: 0.6em;
+                color: rgb(49, 56, 56);
+                text-align: center;
+            }
+            .HijitoDescripcion2{
                 width: 100%;
-                text-align: center;
-                font-size: 80px;
-            }
-            .oph3{
-                margin: 6px;
-                text-align: center;
-            }
-            .opcionp{
-                font-size: 14px;
-                margin: 6px;
-                padding: 10px;
-                text-align: center;
-                align-items: center;
+                display: flex;
+                justify-content: center;
+                p{
+                    width: 60%;
+                    text-align: center;
+                    color: rgb(76, 74, 82);
+                }
             }
         }
-    }
-    .div3{
-        .liopciones{
-            display: inline;
-            list-style: none;
-            text-decoration: none;
-            width: 100%;
-            i{
+        .PadreBeneficios3{
+            padding: 25px;
+            .HijitoBeneficios3{
+                display: flex;
+                justify-content: center;
+                i{
+                    font-size: 4em;
+                    color: #467ebe;
+                }
+            }
+            h4{
+                padding: 0.6em;
+                color: rgb(49, 56, 56);
+                text-align: center;
+            }
+            .HijitoDescripcion3{
                 width: 100%;
-                text-align: center;
-                font-size: 80px;
-            }
-            .oph3{
-                margin: 6px;
-                text-align: center;
-            }
-            .opcionp{
-                font-size: 14px;
-                margin: 6px;
-                padding: 10px;
-                text-align: center;
-                align-items: center;
+                display: flex;
+                justify-content: center;
+                p{
+                    width: 60%;
+                    text-align: center;
+                    color: rgb(76, 74, 82);
+                }
             }
         }
     }
 }
 
-@media screen and(max-width: 600px){
-    .opciones{
-        @include display-flex-just;
-        margin-top: 90px;
-        height: 500px;
-        width: 100%;
-        flex-wrap: wrap;
-        .div1{
-            .liopciones{
-                display: inline;
-                list-style: none;
-                width: 100%;
-                margin: 10px;
-                i{
-                    @include display-flex-just;
-                    font-size: 65px;
-                }
-                .oph3{
-                    font-size: 15px;
-                    text-align: center;
-                    
-                }
-                .opcionp{
-                    font-size: 14px;
-                    padding: 5px;
-                    text-align: center;
-                    align-items: center;
-                }
-            }
-        }
-        .div3{
-            flex-wrap: wrap;
-        }
-    }
-}
+
