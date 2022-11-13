@@ -1,311 +1,95 @@
-.seccionNosotros{
-    .padreDivNosotros{
-        display: flex;
-        width: 100%;
-        .divNosotros{
-            margin-top: 20px;
-            width: 50%;
-            h2{
-                text-align: center;
-                font-family: 'Lexend Deca', sans-serif;
-                color:  $color_principal;
-            }
-            p{
-                margin-top: 20px;
-                margin-bottom: 100px;
-                margin-left: 80px;
-                width: 500px;
-                line-height: 25px;
-                direction: ltr;
-            }
-        }
-        .nosotrosImagen{
-            @include display-flex-just;
-            width: 50%;
-        }
-    }
-    .padreDivNosotros2{
-        display: flex;
-        width: 100%;
-        .divNosotros2{
-            width: 50%;
-            h2{
-                text-align: center;
-                font-family: 'Lexend Deca', sans-serif;
-                color: $color_principal;
-            }
-            p{
-                margin-top: 20px;
-                margin-bottom: 100px;
-                margin-left: 80px;
-                width: 500px;
-                line-height: 25px;
-                direction: rtl;
-            }
-        }
-        .nosotrosImagen{
-            width: 50%;
-            height: 400px;
-        }
-        .nosotrosImagen2{
-            width: 50%;
-            @include display-flex-just;
-        }
-    }
-    .padreDivNosotros3{
-        display: flex;
-        width: 100%;
-        .divNosotros3{
-            h2{
-                text-align: center;
-                font-family: 'Lexend Deca', sans-serif;
-                color:  $color_principal;
-            }
-            p{
-                margin-top: 20px;
-                margin-bottom: 100px;
-                margin-left: 80px;
-                width: 500px;
-                line-height: 25px;
-                direction: ltr;
-            }
-        }
-    }
-    .padreDivNosotros4{
-        display: flex;
-        width: 100%;
-        .nosotrosImagen4{
-            width: 50%;
-            @include display-flex-just;
-            .img{
-                width: 400px;
-                border: 1px solid $color_borderwhite;
-                border-radius: 200px;
-                height: 400px;
-            }
-        }
-        .divNosotros4{
-            width: 50%;
-            h2{
-                text-align: center;
-                font-family: 'Lexend Deca', sans-serif;
-                color: $color_principal;
-            }
-            p{
-                margin-top: 20px;
-                margin-bottom: 100px;
-                margin-left: 80px;
-                width: 500px;
-                line-height: 25px;
-                direction: rtl;
-            }
-        }
-    }
-}
 
-@media screen and(max-width: 1024px) {
-    .seccionNosotros{
-        .padreDivNosotros{
-            display: flex;
-            .divNosotros{
-                margin-top: 20px;
-                width: 50%;
-                h2{
-                    text-align: center;
-                    font-family: 'Lexend Deca', sans-serif;
-                    color:  $color_principal;
-                }
-                p{
-                    margin-top: 20px;
-                    margin-bottom: 100px;
-                    margin-left: 80px;
-                    width: 70%;
-                    line-height: 25px;
-                    direction: ltr;
+            .carousel{
+                display: flex;
+                justify-content: center;
+                .ContenedorCarrusel{
+                    width: 90%;
                 }
             }
-            .nosotrosImagen{
-                @include display-flex-just;
-                width: 50%;
+            
+            
+            .SeccionAboutUs{
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                .ContenedorAboutUs{
+                    .TituloPrincipal{
+                        text-align: center;
+                        margin: 50px;
+                    }
+                    .PadreAboutUs{
+                        margin-top: 100px;
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        flex-wrap: wrap;
+                        .HijoAboutUs1{
+                            width: 50%;
+                            h3{
+                                text-align: center;
+                                color: #404f61;
+                            }
+                            .contenedorP{
+                                display: flex;
+                                justify-content: center;
+                                p{
+                                    text-align: center;
+                                    width: 50%;
+                                    color: #3d3232;
+                                }
+                            }
+                        }
+                        .HijoAboutUs2{
+                            width: 50%;
+                            h3{
+                                text-align: center;
+                                color: #404f61;
+                            }
+                            .contenedorP{
+                                display: flex;
+                                justify-content: center;
+                                p{
+                                    text-align: center;
+                                    width: 50%;
+                                    color: #3d3232;
+                                }
+                            }
+                        }
+                        .HijoAboutUs3{
+                            width: 50%;
+                            margin-top: 100px;
+                            h3{
+                                text-align: center;
+                                color: #404f61;
+                            }
+                            .contenedorP{
+                                display: flex;
+                                justify-content: center;
+                                p{
+                                    text-align: center;
+                                    width: 50%;
+                                    color: #3d3232;
+                                }
+                            }
+                        }
+                        .HijoAboutUs4{
+                            width: 50%;
+                            margin-top: 100px;
+                            h3{
+                                text-align: center;
+                                color: #404f61;
+                            }
+                            .contenedorP{
+                                display: flex;
+                                justify-content: center;
+                                p{
+                                    text-align: center;
+                                    width: 50%;
+                                    color: #3d3232;
+                                }
+                            }
+                        }
+                    }
+                }            
             }
-        }
-        .padreDivNosotros2{
-            display: flex;
-            width: 100%;
-            .divNosotros2{
-                width: 50%;
-                h2{
-                    text-align: center;
-                    font-family: 'Lexend Deca', sans-serif;
-                    color: $color_principal;
-                }
-                p{
-                    margin-top: 20px;
-                    margin-bottom: 100px;
-                    margin-left: 80px;
-                    width: 50%;
-                    line-height: 25px;
-                    direction: rtl;
-                }
-            }
-        }
-        .padreDivNosotros3{
-            display: flex;
-            width: 100%;
-            .divNosotros3{
-                h2{
-                    margin-left: 80px;
-                    display: flex;
-                    justify-content: flex-start;
-                    font-family: 'Lexend Deca', sans-serif;
-                    color:  $color_principal;
 
-                }
-                p{
-                    margin-top: 20px;
-                    margin-bottom: 100px;
-                    margin-left: 80px;
-                    width: 50%;
-                    line-height: 25px;
-                    direction: ltr;
-                }
-            }
-        }
-        .padreDivNosotros4{
-            display: flex;
-            width: 100%;
-            .nosotrosImagen4{
-                width: 50%;
-                @include display-flex-just;
-                .img{
-                    width: 400px;
-                    border: 1px solid $color_borderwhite;
-                    border-radius: 200px;
-                    height: 400px;
-                }
-            }
-            .divNosotros4{
-                width: 50%;
-                h2{
-                    margin-left: 20px;
-                    display: flex;
-                    justify-content: center;
-                    font-family: 'Lexend Deca', sans-serif;
-                    color: $color_principal;
-                }
-                p{
-                    margin-top: 20px;
-                    margin-bottom: 100px;
-                    margin-left: 80px;
-                    width: 50%;
-                    line-height: 25px;
-                    direction: rtl;
-                }
-            }
-        }
-    }
-    
-}
-@media screen and(max-width: 600px) {
-    .seccionNosotros{
-        .padreDivNosotros{
-            display: flex;
-            .divNosotros{
-                margin-top: 20px;
-                width: 50%;
-                h2{
-                    text-align: center;
-                    font-family: 'Lexend Deca', sans-serif;
-                    color:  $color_principal;
-                }
-                p{
-                    margin-top: 20px;
-                    margin-bottom: 100px;
-                    margin-left: 80px;
-                    width: 50%;
-                    line-height: 25px;
-                    direction: ltr;
-                }
-            }
-            .nosotrosImagen{
-                @include display-flex-just;
-                width: 50%;
-            }
-        }
-        .padreDivNosotros2{
-            display: flex;
-            width: 100%;
-            .divNosotros2{
-                width: 50%;
-                h2{
-                    text-align: center;
-                    font-family: 'Lexend Deca', sans-serif;
-                    color: $color_principal;
-                }
-                p{
-                    margin-top: 20px;
-                    margin-bottom: 100px;
-                    margin-left: 80px;
-                    width: 70%;
-                    line-height: 25px;
-                    direction: rtl;
-                }
-            }
-        }
-        .padreDivNosotros3{
-            display: flex;
-            width: 100%;
-            .divNosotros3{
-                h2{
-                    margin-left: 80px;
-                    display: flex;
-                    justify-content: flex-start;
-                    font-family: 'Lexend Deca', sans-serif;
-                    color:  $color_principal;
-
-                }
-                p{
-                    margin-top: 20px;
-                    margin-bottom: 100px;
-                    margin-left: 80px;
-                    width: 50%;
-                    line-height: 25px;
-                    direction: ltr;
-                }
-            }
-        }
-        .padreDivNosotros4{
-            display: flex;
-            width: 100%;
-            .nosotrosImagen4{
-                width: 50%;
-                @include display-flex-just;
-                .img{
-                    width: 400px;
-                    border: 1px solid $color_borderwhite;
-                    border-radius: 200px;
-                    height: 400px;
-                }
-            }
-            .divNosotros4{
-                width: 50%;
-                h2{
-                    margin-left: 20px;
-                    display: flex;
-                    justify-content: center;
-                    font-family: 'Lexend Deca', sans-serif;
-                    color: $color_principal;
-                }
-                p{
-                    margin-top: 20px;
-                    margin-bottom: 100px;
-                    margin-left: 80px;
-                    width: 70%;
-                    line-height: 25px;
-                    direction: rtl;
-                }
-            }
-        }
-    }
-    
-}
