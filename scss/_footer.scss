@@ -1,216 +1,46 @@
-.seccionfooter{
+.SeccionFooter{
+    background-color: cadetblue;
     footer{
-        display: flex;
-        background-color: $color_principal;
-        .divcontenedor{
-            display: flex;
+        .ContenedorFooter{
             width: 100%;
-            .divfooterpadre{
-                width: 20%;
-                .footerul{
-                    margin-top: 15px;
-                    list-style: none;
-                    h4{
-                        margin-left: 50px;
-                        color: white;
-                        font-size: 20px;
+            .ContImagen{
+                display: flex;
+                justify-content: center;
+                margin-bottom: 20px;
+            }
+            .ContNavegacion{
+                display: flex;
+                justify-content: center;
+                .PadreNavegacion{
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    width: 100%;
+                    ul{
+                        display: flex;
+                        justify-content: center;
+                        li{
+                            list-style: none;
+                            a{
+                                text-decoration: none;
+                                color: white;
+                                margin: 20px;
+                            }
+                        }
                     }
-                    li{
-                        padding: 1px;
+                }
+                .PadreCopyright{
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+                    color: white;
+                    p{
+                        border-top: 2px solid rgb(117, 179, 184);
+                        padding: 20px;
                         a{
-                            margin-left: 50px;
                             text-decoration: none;
                             color: white;
-                            font-size: 15px;
                             &:hover{
-                                color: $color_footerback;
-                            }
-                        }
-                    }
-                }
-            }
-            .divfooterpadre2{
-                margin-top: 15px;
-                width: 80%;
-                .footerul2{
-                    h3{
-                        font-size: 20px;
-                        color: white;
-                    }
-                    .liconos{
-                        width: 100%;
-                        list-style: none;
-                        display: inline;
-                        a{
-                            text-decoration: none;
-                            i{
-                                padding: 6px;
-                                font-size: 30px;
-                                color: white;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
-
-@media screen and(max-width: 768px){
-    .divcontenedor{
-        .divfooterpadre{
-            @include dis-flex-100;
-            .footerul{
-                list-style: none;
-                margin-top: 10px;
-                h4{
-                    text-align: center;
-                    color: white;
-                    font-size: 20px;
-                    margin-left: 0;
-                    margin-bottom: 6px;
-                }
-                li{
-                    display: inline;
-                    a{
-                        text-decoration: none;
-                        color: white;
-                        font-size: 15px;
-                        margin-left: 0;
-                    }
-                }
-            }
-            .divfooterpadre2{
-                @include dis-flex-100;
-                margin-left: 0;
-                margin-top: 0;
-                .footerul2{
-                    h3{
-                        font-size: 20px;
-                        color: white;
-                        margin-bottom: 6px;
-                    }
-                    .liconos{
-                        width: 100%;
-                        list-style: none;
-                        display: inline;
-                        a{
-                            text-decoration: none;
-                            i{
-                                padding: 6px;
-                                font-size: 25px;
-                                color: white;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
-@media screen and(max-width: 600px){
-    .divcontenedor{
-        width: 100%;
-        flex-wrap: wrap;
-        .divfooterpadre{
-            @include dis-flex-100;
-            .footerul{
-                list-style: none;
-                margin-top: 10px;
-                h4{
-                    text-align: center;
-                    color: white;
-                    font-size: 15px;
-                    margin-left: 0;
-                    margin-bottom: 6px;
-                }
-                .footerli{
-                    display: inline;
-                    a{
-                        text-decoration: none;
-                        color: white;
-                        font-size: 12px;
-                        margin-left: 0;
-                    }
-                }
-            }
-            .divfooterpadre2{
-                @include dis-flex-100;
-                margin-left: 0;
-                margin-top: 0;
-                .footerul2{
-                    h3{
-                        font-size: 15px;
-                        color: white;
-                        margin-bottom: 6px;
-                    }
-                    .liconos{
-                        width: 100%;
-                        list-style: none;
-                        display: inline;
-                        a{
-                            text-decoration: none;
-                            i{
-                                padding: 6px;
-                                font-size: 20px;
-                                color: white;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-}
-@media screen and(max-width: 480px){
-    .divcontenedor{
-        width: 100%;
-        flex-wrap: wrap;
-        .divfooterpadre{
-            @include dis-flex-100;
-            .footerul{
-                list-style: none;
-                margin-top: 10px;
-                h4{
-                    text-align: center;
-                    color: white;
-                    font-size: 15px;
-                    margin-left: 0;
-                    margin-bottom: 6px;
-                }
-                .footerli{
-                    display: inline;
-                    a{
-                        text-decoration: none;
-                        color: white;
-                        font-size: 12px;
-                        margin-left: 0;
-                    }
-                }
-            }
-            .divfooterpadre2{
-                @include dis-flex-100;
-                margin-left: 0;
-                margin-top: 10;
-                .footerul2{
-                    h3{
-                        font-size: 15px;
-                        color: white;
-                        margin-bottom: 6px;
-                    }
-                    .liconos{
-                        width: 100%;
-                        list-style: none;
-                        display: inline;
-                        a{
-                            text-decoration: none;
-                            i{
-                                padding: 6px;
-                                font-size: 20px;
-                                color: white;
+                                cursor: pointer;
                             }
                         }
                     }

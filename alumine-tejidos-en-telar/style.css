@@ -58,178 +58,43 @@
     font-family: 'Inter', sans-serif;
     height: 100vh; }
 
-.seccionfooter footer {
-  display: flex;
-  background-color: #467ebe; }
-  .seccionfooter footer .divcontenedor {
-    display: flex;
+.SeccionFooter {
+  background-color: cadetblue; }
+  .SeccionFooter footer .ContenedorFooter {
     width: 100%; }
-    .seccionfooter footer .divcontenedor .divfooterpadre {
-      width: 20%; }
-      .seccionfooter footer .divcontenedor .divfooterpadre .footerul {
-        margin-top: 15px;
-        list-style: none; }
-        .seccionfooter footer .divcontenedor .divfooterpadre .footerul h4 {
-          margin-left: 50px;
-          color: white;
-          font-size: 20px; }
-        .seccionfooter footer .divcontenedor .divfooterpadre .footerul li {
-          padding: 1px; }
-          .seccionfooter footer .divcontenedor .divfooterpadre .footerul li a {
-            margin-left: 50px;
-            text-decoration: none;
-            color: white;
-            font-size: 15px; }
-            .seccionfooter footer .divcontenedor .divfooterpadre .footerul li a:hover {
-              color: #fda1a1; }
-    .seccionfooter footer .divcontenedor .divfooterpadre2 {
-      margin-top: 15px;
-      width: 80%; }
-      .seccionfooter footer .divcontenedor .divfooterpadre2 .footerul2 h3 {
-        font-size: 20px;
-        color: white; }
-      .seccionfooter footer .divcontenedor .divfooterpadre2 .footerul2 .liconos {
-        width: 100%;
-        list-style: none;
-        display: inline; }
-        .seccionfooter footer .divcontenedor .divfooterpadre2 .footerul2 .liconos a {
-          text-decoration: none; }
-          .seccionfooter footer .divcontenedor .divfooterpadre2 .footerul2 .liconos a i {
-            padding: 6px;
-            font-size: 30px;
-            color: white; }
-
-@media screen and (max-width: 768px) {
-  .divcontenedor .divfooterpadre {
-    width: 100%;
-    display: flex;
-    justify-content: center; }
-    .divcontenedor .divfooterpadre .footerul {
-      list-style: none;
-      margin-top: 10px; }
-      .divcontenedor .divfooterpadre .footerul h4 {
-        text-align: center;
-        color: white;
-        font-size: 20px;
-        margin-left: 0;
-        margin-bottom: 6px; }
-      .divcontenedor .divfooterpadre .footerul li {
-        display: inline; }
-        .divcontenedor .divfooterpadre .footerul li a {
-          text-decoration: none;
-          color: white;
-          font-size: 15px;
-          margin-left: 0; }
-    .divcontenedor .divfooterpadre .divfooterpadre2 {
-      width: 100%;
+    .SeccionFooter footer .ContenedorFooter .ContImagen {
       display: flex;
       justify-content: center;
-      margin-left: 0;
-      margin-top: 0; }
-      .divcontenedor .divfooterpadre .divfooterpadre2 .footerul2 h3 {
-        font-size: 20px;
-        color: white;
-        margin-bottom: 6px; }
-      .divcontenedor .divfooterpadre .divfooterpadre2 .footerul2 .liconos {
-        width: 100%;
-        list-style: none;
-        display: inline; }
-        .divcontenedor .divfooterpadre .divfooterpadre2 .footerul2 .liconos a {
-          text-decoration: none; }
-          .divcontenedor .divfooterpadre .divfooterpadre2 .footerul2 .liconos a i {
-            padding: 6px;
-            font-size: 25px;
-            color: white; } }
-
-@media screen and (max-width: 600px) {
-  .divcontenedor {
-    width: 100%;
-    flex-wrap: wrap; }
-    .divcontenedor .divfooterpadre {
-      width: 100%;
+      margin-bottom: 20px; }
+    .SeccionFooter footer .ContenedorFooter .ContNavegacion {
       display: flex;
       justify-content: center; }
-      .divcontenedor .divfooterpadre .footerul {
-        list-style: none;
-        margin-top: 10px; }
-        .divcontenedor .divfooterpadre .footerul h4 {
-          text-align: center;
-          color: white;
-          font-size: 15px;
-          margin-left: 0;
-          margin-bottom: 6px; }
-        .divcontenedor .divfooterpadre .footerul .footerli {
-          display: inline; }
-          .divcontenedor .divfooterpadre .footerul .footerli a {
-            text-decoration: none;
-            color: white;
-            font-size: 12px;
-            margin-left: 0; }
-      .divcontenedor .divfooterpadre .divfooterpadre2 {
-        width: 100%;
+      .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreNavegacion {
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%; }
+        .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreNavegacion ul {
+          display: flex;
+          justify-content: center; }
+          .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreNavegacion ul li {
+            list-style: none; }
+            .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreNavegacion ul li a {
+              text-decoration: none;
+              color: white;
+              margin: 20px; }
+      .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreCopyright {
         display: flex;
         justify-content: center;
-        margin-left: 0;
-        margin-top: 0; }
-        .divcontenedor .divfooterpadre .divfooterpadre2 .footerul2 h3 {
-          font-size: 15px;
-          color: white;
-          margin-bottom: 6px; }
-        .divcontenedor .divfooterpadre .divfooterpadre2 .footerul2 .liconos {
-          width: 100%;
-          list-style: none;
-          display: inline; }
-          .divcontenedor .divfooterpadre .divfooterpadre2 .footerul2 .liconos a {
-            text-decoration: none; }
-            .divcontenedor .divfooterpadre .divfooterpadre2 .footerul2 .liconos a i {
-              padding: 6px;
-              font-size: 20px;
-              color: white; } }
-
-@media screen and (max-width: 480px) {
-  .divcontenedor {
-    width: 100%;
-    flex-wrap: wrap; }
-    .divcontenedor .divfooterpadre {
-      width: 100%;
-      display: flex;
-      justify-content: center; }
-      .divcontenedor .divfooterpadre .footerul {
-        list-style: none;
-        margin-top: 10px; }
-        .divcontenedor .divfooterpadre .footerul h4 {
-          text-align: center;
-          color: white;
-          font-size: 15px;
-          margin-left: 0;
-          margin-bottom: 6px; }
-        .divcontenedor .divfooterpadre .footerul .footerli {
-          display: inline; }
-          .divcontenedor .divfooterpadre .footerul .footerli a {
-            text-decoration: none;
-            color: white;
-            font-size: 12px;
-            margin-left: 0; }
-      .divcontenedor .divfooterpadre .divfooterpadre2 {
         width: 100%;
-        display: flex;
-        justify-content: center;
-        margin-left: 0;
-        margin-top: 10; }
-        .divcontenedor .divfooterpadre .divfooterpadre2 .footerul2 h3 {
-          font-size: 15px;
-          color: white;
-          margin-bottom: 6px; }
-        .divcontenedor .divfooterpadre .divfooterpadre2 .footerul2 .liconos {
-          width: 100%;
-          list-style: none;
-          display: inline; }
-          .divcontenedor .divfooterpadre .divfooterpadre2 .footerul2 .liconos a {
-            text-decoration: none; }
-            .divcontenedor .divfooterpadre .divfooterpadre2 .footerul2 .liconos a i {
-              padding: 6px;
-              font-size: 20px;
-              color: white; } }
+        color: white; }
+        .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreCopyright p {
+          border-top: 2px solid #75b3b8;
+          padding: 20px; }
+          .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreCopyright p a {
+            text-decoration: none;
+            color: white; }
+            .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreCopyright p a:hover {
+              cursor: pointer; }
 
 .contactanosimagen {
   display: flex;
