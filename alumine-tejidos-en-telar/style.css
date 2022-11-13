@@ -61,7 +61,8 @@
 .SeccionFooter {
   background-color: cadetblue; }
   .SeccionFooter footer .ContenedorFooter {
-    width: 100%; }
+    width: 100%;
+    padding-top: 25px; }
     .SeccionFooter footer .ContenedorFooter .ContImagen {
       display: flex;
       justify-content: center;
@@ -75,26 +76,25 @@
         width: 100%; }
         .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreNavegacion ul {
           display: flex;
-          justify-content: center; }
+          justify-content: center;
+          padding-bottom: 15px; }
           .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreNavegacion ul li {
             list-style: none; }
             .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreNavegacion ul li a {
               text-decoration: none;
               color: white;
               margin: 20px; }
-      .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreCopyright {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        color: white; }
-        .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreCopyright p {
-          border-top: 2px solid #75b3b8;
-          padding: 20px; }
-          .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreCopyright p a {
-            text-decoration: none;
-            color: white; }
-            .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreCopyright p a:hover {
-              cursor: pointer; }
+    .SeccionFooter footer .ContenedorFooter .PadreCopyright {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      color: white; }
+      .SeccionFooter footer .ContenedorFooter .PadreCopyright p {
+        border-top: 2px solid #75b3b8;
+        padding: 20px; }
+        .SeccionFooter footer .ContenedorFooter .PadreCopyright p a {
+          text-decoration: none;
+          color: white; }
 
 .contactanosimagen {
   display: flex;
