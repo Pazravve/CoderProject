@@ -14,7 +14,8 @@
       margin-top: 40px;
       margin-bottom: 40px; }
       .seccionprincipal header .DIVDETODO .principalNavBar .NavBar ul {
-        text-align: center; }
+        text-align: center;
+        padding-left: 0px; }
         .seccionprincipal header .DIVDETODO .principalNavBar .NavBar ul li {
           margin-bottom: 5px;
           padding: 20px;
@@ -33,23 +34,141 @@
               padding-bottom: 2px;
               cursor: pointer; }
 
+@media screen and (max-width: 768px) {
+  .seccionprincipal {
+    background-color: #467ebe;
+    width: 100%; }
+    .seccionprincipal header .DIVDETODO {
+      display: flex; }
+      .seccionprincipal header .DIVDETODO .principalNavBar {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px; }
+        .seccionprincipal header .DIVDETODO .principalNavBar .NavBar ul {
+          padding-left: 0px;
+          text-align: center; }
+          .seccionprincipal header .DIVDETODO .principalNavBar .NavBar ul li {
+            padding: 15px;
+            display: inline;
+            list-style: none;
+            font-size: 15px;
+            font-family: 'Lexend Deca', sans-serif; }
+            .seccionprincipal header .DIVDETODO .principalNavBar .NavBar ul li a {
+              text-decoration: none;
+              color: white; }
+              .seccionprincipal header .DIVDETODO .principalNavBar .NavBar ul li a:hover {
+                color: #d8e1f1;
+                transition: 0.2s;
+                border-bottom: 5px solid #b6abf7;
+                width: 110px;
+                padding-bottom: 2px;
+                cursor: pointer; } }
+
 @media screen and (max-width: 600px) {
-  .NavBar li {
-    margin-bottom: 5px;
-    padding: 15px;
-    display: inline;
-    list-style: none;
-    font-size: 16px;
-    font-family: 'Lexend Deca', sans-serif; } }
+  .seccionprincipal {
+    background-color: #467ebe;
+    width: 100%; }
+    .seccionprincipal header .DIVDETODO {
+      display: flex; }
+      .seccionprincipal header .DIVDETODO .principalNavBar {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px; }
+        .seccionprincipal header .DIVDETODO .principalNavBar .NavBar ul {
+          padding-left: 0px;
+          text-align: center; }
+          .seccionprincipal header .DIVDETODO .principalNavBar .NavBar ul li {
+            padding: 15px;
+            display: inline;
+            list-style: none;
+            font-size: 15px;
+            font-family: 'Lexend Deca', sans-serif; }
+            .seccionprincipal header .DIVDETODO .principalNavBar .NavBar ul li a {
+              text-decoration: none;
+              color: white; }
+              .seccionprincipal header .DIVDETODO .principalNavBar .NavBar ul li a:hover {
+                color: #d8e1f1;
+                transition: 0.2s;
+                border-bottom: 5px solid #b6abf7;
+                width: 110px;
+                padding-bottom: 2px;
+                cursor: pointer; } }
 
 @media screen and (max-width: 480px) {
-  .NavBar li {
-    margin-bottom: 5px;
-    padding: 10px;
-    display: inline;
-    list-style: none;
-    font-size: 14px;
-    font-family: 'Lexend Deca', sans-serif; } }
+  .seccionprincipal {
+    background-color: #467ebe;
+    width: 100%; }
+    .seccionprincipal header .DIVDETODO {
+      display: flex;
+      width: 100%; }
+      .seccionprincipal header .DIVDETODO .principalNavBar {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 20px; }
+        .seccionprincipal header .DIVDETODO .principalNavBar .NavBar ul {
+          padding-left: 0px;
+          text-align: center; }
+          .seccionprincipal header .DIVDETODO .principalNavBar .NavBar ul li {
+            padding: 10px;
+            display: inline;
+            list-style: none;
+            font-size: 14px;
+            font-family: 'Lexend Deca', sans-serif; }
+            .seccionprincipal header .DIVDETODO .principalNavBar .NavBar ul li a {
+              text-decoration: none;
+              color: white; }
+              .seccionprincipal header .DIVDETODO .principalNavBar .NavBar ul li a:hover {
+                color: #d8e1f1;
+                transition: 0.2s;
+                border-bottom: 5px solid #b6abf7;
+                width: 110px;
+                padding-bottom: 2px;
+                cursor: pointer; } }
+
+@media screen and (max-width: 320px) {
+  .seccionprincipal {
+    background-color: #467ebe;
+    width: 100%; }
+    .seccionprincipal header .DIVDETODO {
+      display: flex;
+      width: 100%; }
+      .seccionprincipal header .DIVDETODO .principalNavBar {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 20px; }
+        .seccionprincipal header .DIVDETODO .principalNavBar .NavBar ul {
+          padding-left: 0px;
+          text-align: center; }
+          .seccionprincipal header .DIVDETODO .principalNavBar .NavBar ul li {
+            padding: 7px;
+            display: inline;
+            list-style: none;
+            font-size: 10px;
+            font-family: 'Lexend Deca', sans-serif; }
+            .seccionprincipal header .DIVDETODO .principalNavBar .NavBar ul li a {
+              text-decoration: none;
+              color: white; }
+              .seccionprincipal header .DIVDETODO .principalNavBar .NavBar ul li a:hover {
+                color: #d8e1f1;
+                transition: 0.2s;
+                border-bottom: 5px solid #b6abf7;
+                width: 110px;
+                padding-bottom: 2px;
+                cursor: pointer; } }
 
 * {
   margin: 0%;
@@ -59,7 +178,8 @@
     height: 100vh; }
 
 .SeccionFooter {
-  background-color: cadetblue; }
+  background-color: #467ebe;
+  width: 100%; }
   .SeccionFooter footer .ContenedorFooter {
     width: 100%;
     padding-top: 25px; }
@@ -75,6 +195,7 @@
         flex-wrap: wrap;
         width: 100%; }
         .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreNavegacion ul {
+          width: 100%;
           display: flex;
           justify-content: center;
           padding-bottom: 15px; }
@@ -95,6 +216,187 @@
         .SeccionFooter footer .ContenedorFooter .PadreCopyright p a {
           text-decoration: none;
           color: white; }
+
+@media screen and (max-width: 768px) {
+  .SeccionFooter {
+    background-color: #467ebe;
+    width: 100%; }
+    .SeccionFooter footer .ContenedorFooter {
+      width: 100%;
+      padding-top: 25px; }
+      .SeccionFooter footer .ContenedorFooter .ContImagen {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px; }
+      .SeccionFooter footer .ContenedorFooter .ContNavegacion {
+        display: flex;
+        justify-content: center; }
+        .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreNavegacion {
+          justify-content: center;
+          flex-wrap: wrap;
+          width: 100%; }
+          .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreNavegacion ul {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            padding-bottom: 15px; }
+            .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreNavegacion ul li {
+              list-style: none; }
+              .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreNavegacion ul li a {
+                font-size: 14px;
+                text-decoration: none;
+                color: white;
+                margin: 15px; }
+      .SeccionFooter footer .ContenedorFooter .PadreCopyright {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        color: white; }
+        .SeccionFooter footer .ContenedorFooter .PadreCopyright p {
+          width: 90%;
+          border-top: 2px solid #75b3b8;
+          padding: 20px;
+          font-size: 12px; }
+          .SeccionFooter footer .ContenedorFooter .PadreCopyright p a {
+            font-size: 12px;
+            text-decoration: none;
+            color: white; } }
+
+@media screen and (max-width: 600px) {
+  .SeccionFooter {
+    background-color: #467ebe;
+    width: 100%; }
+    .SeccionFooter footer .ContenedorFooter {
+      width: 100%;
+      padding-top: 25px; }
+      .SeccionFooter footer .ContenedorFooter .ContImagen {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px; }
+      .SeccionFooter footer .ContenedorFooter .ContNavegacion {
+        display: flex;
+        justify-content: center; }
+        .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreNavegacion {
+          justify-content: center;
+          flex-wrap: wrap;
+          width: 100%; }
+          .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreNavegacion ul {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            padding-bottom: 15px; }
+            .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreNavegacion ul li {
+              list-style: none; }
+              .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreNavegacion ul li a {
+                font-size: 13px;
+                text-decoration: none;
+                color: white;
+                margin: 15px; }
+      .SeccionFooter footer .ContenedorFooter .PadreCopyright {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        color: white; }
+        .SeccionFooter footer .ContenedorFooter .PadreCopyright p {
+          width: 90%;
+          border-top: 1px solid #75b3b8;
+          padding: 15px;
+          font-size: 10px; }
+          .SeccionFooter footer .ContenedorFooter .PadreCopyright p a {
+            font-size: 10px;
+            text-decoration: none;
+            color: white; } }
+
+@media screen and (max-width: 480px) {
+  .SeccionFooter {
+    background-color: #467ebe;
+    width: 100%; }
+    .SeccionFooter footer .ContenedorFooter {
+      width: 100%;
+      padding-top: 25px; }
+      .SeccionFooter footer .ContenedorFooter .ContImagen {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px; }
+      .SeccionFooter footer .ContenedorFooter .ContNavegacion {
+        display: flex;
+        justify-content: center; }
+        .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreNavegacion {
+          justify-content: center;
+          flex-wrap: wrap;
+          width: 100%; }
+          .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreNavegacion ul {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            padding-bottom: 5px; }
+            .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreNavegacion ul li {
+              list-style: none; }
+              .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreNavegacion ul li a {
+                font-size: 10px;
+                text-decoration: none;
+                color: white;
+                margin: 15px; }
+      .SeccionFooter footer .ContenedorFooter .PadreCopyright {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        color: white; }
+        .SeccionFooter footer .ContenedorFooter .PadreCopyright p {
+          width: 90%;
+          border-top: 1px solid #75b3b8;
+          padding: 15px;
+          font-size: 10px; }
+          .SeccionFooter footer .ContenedorFooter .PadreCopyright p a {
+            font-size: 10px;
+            text-decoration: none;
+            color: white; } }
+
+@media screen and (max-width: 320px) {
+  .SeccionFooter {
+    background-color: #467ebe;
+    width: 100%; }
+    .SeccionFooter footer .ContenedorFooter {
+      width: 100%;
+      padding-top: 25px; }
+      .SeccionFooter footer .ContenedorFooter .ContImagen {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px; }
+      .SeccionFooter footer .ContenedorFooter .ContNavegacion {
+        display: flex;
+        justify-content: center; }
+        .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreNavegacion {
+          justify-content: center;
+          flex-wrap: wrap;
+          width: 100%; }
+          .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreNavegacion ul {
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            padding-bottom: 5px; }
+            .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreNavegacion ul li {
+              list-style: none; }
+              .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreNavegacion ul li a {
+                font-size: 10px;
+                text-decoration: none;
+                color: white;
+                margin: 9px; }
+      .SeccionFooter footer .ContenedorFooter .PadreCopyright {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        color: white; }
+        .SeccionFooter footer .ContenedorFooter .PadreCopyright p {
+          margin-bottom: 0;
+          width: 90%;
+          border-top: 1px solid #75b3b8;
+          padding: 15px;
+          font-size: 9px; }
+          .SeccionFooter footer .ContenedorFooter .PadreCopyright p a {
+            font-size: 9px;
+            text-decoration: none;
+            color: white; } }
 
 .contactanosimagen {
   display: flex;
@@ -445,8 +747,8 @@
   width: 100%;
   justify-content: center; }
   .SeccionBeneficios .ContenedorBeneficios {
-    width: 100%;
-    display: flex; }
+    display: flex;
+    justify-content: centermnp; }
     .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios1 {
       padding: 25px; }
       .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios1 .HijitoBeneficios {
@@ -508,113 +810,171 @@
           text-align: center;
           color: #4c4a52; }
 
-.seccionfotos {
-  display: flex;
-  justify-content: center; }
-  .seccionfotos .padrefotos {
-    height: 1300px;
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-    margin-top: 10px; }
-    .seccionfotos .padrefotos .hijofoto img {
-      width: 100%;
-      height: 600px; }
-    .seccionfotos .padrefotos .hijofoto2 img {
-      width: 100%;
-      height: 600px; }
-
-.bannerseguinos {
-  display: flex;
-  justify-content: center; }
-  .bannerseguinos .divseguinos img {
-    width: 100%;
-    height: 300px; }
-
-@media screen and (max-width: 1200px) {
-  .padrefotos {
-    background-color: white;
-    height: 1030px; }
-    .padrefotos .hijofoto img {
-      width: 100%px;
-      height: 500px; }
-    .padrefotos .hijofoto2 img {
-      width: 100%px;
-      height: 500px; }
-  .bannerseguinos {
-    display: flex;
-    justify-content: center; }
-    .bannerseguinos .divseguinos img {
-      width: 1100px;
-      height: 250px; } }
-
-@media screen and (max-width: 1024px) {
-  .padrefotos {
-    background-color: white;
-    height: 1030px; }
-    .padrefotos .hijofoto img {
-      width: 1100px;
-      height: 500px; }
-    .padrefotos .hijofoto2 img {
-      width: 1100px;
-      height: 500px; }
-  .bannerseguinos {
-    display: flex;
-    justify-content: center; }
-    .bannerseguinos .divseguinos img {
-      width: 100%;
-      height: 250px; } }
-
-@media screen and (max-width: 1024px) {
-  .padrefotos {
-    background-color: white;
-    height: 600px; }
-    .padrefotos .hijofoto img {
-      width: 100%;
-      height: 300px; }
-    .padrefotos .hijofoto2 img {
-      width: 100%;
-      height: 300px; }
-  .bannerseguinos {
-    display: flex;
-    justify-content: center; }
-    .bannerseguinos .divseguinos img {
-      width: 100%;
-      height: 250px; } }
-
 @media screen and (max-width: 600px) {
-  .padrefotos {
-    background-color: white;
-    height: 600px; }
-    .padrefotos .hijofoto img {
-      width: 100%px;
-      height: 330px; }
-    .padrefotos .hijofoto2 img {
-      width: 100%px;
-      height: 330px; }
-  .bannerseguinos {
+  .SeccionBeneficios {
+    padding-top: 6em;
+    padding-bottom: 6em;
     display: flex;
+    width: 100%;
     justify-content: center; }
-    .bannerseguinos .divseguinos img {
-      width: 100%;
-      height: 230px; } }
+    .SeccionBeneficios .ContenedorBeneficios {
+      display: flex;
+      justify-content: centermnp; }
+      .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios1 {
+        padding: 25px; }
+        .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios1 .HijitoBeneficios {
+          display: flex;
+          justify-content: center; }
+          .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios1 .HijitoBeneficios i {
+            font-size: 3em;
+            color: #2b2f35; }
+        .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios1 h4 {
+          font-size: 20px;
+          padding: 0.6em;
+          color: #313838;
+          text-align: center; }
+        .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios1 .HijitoDescripcion {
+          width: 100%;
+          display: flex;
+          justify-content: center; }
+          .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios1 .HijitoDescripcion p {
+            font-size: 14px;
+            width: 80%;
+            text-align: center;
+            color: #4c4a52; }
+      .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios2 {
+        padding: 25px; }
+        .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios2 .HijitoBeneficios2 {
+          display: flex;
+          justify-content: center; }
+          .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios2 .HijitoBeneficios2 i {
+            font-size: 3em;
+            color: #2b2f35; }
+        .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios2 h4 {
+          font-size: 20px;
+          padding: 0.6em;
+          color: #313838;
+          text-align: center; }
+        .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios2 .HijitoDescripcion2 {
+          width: 100%;
+          display: flex;
+          justify-content: center; }
+          .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios2 .HijitoDescripcion2 p {
+            font-size: 14px;
+            width: 80%;
+            text-align: center;
+            color: #4c4a52; }
+      .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios3 {
+        padding: 25px; }
+        .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios3 .HijitoBeneficios3 {
+          display: flex;
+          justify-content: center; }
+          .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios3 .HijitoBeneficios3 i {
+            font-size: 3em;
+            color: #2b2f35; }
+        .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios3 h4 {
+          font-size: 20px;
+          padding: 0.6em;
+          color: #313838;
+          text-align: center; }
+        .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios3 .HijitoDescripcion3 {
+          width: 100%;
+          display: flex;
+          justify-content: center; }
+          .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios3 .HijitoDescripcion3 p {
+            font-size: 14px;
+            width: 80%;
+            text-align: center;
+            color: #4c4a52; } }
 
 @media screen and (max-width: 480px) {
-  .padrefotos {
-    background-color: white;
-    height: 450px; }
-    .padrefotos .hijofoto img {
-      width: 100%;
-      height: 250px; }
-    .padrefotos .hijofoto2 img {
-      width: 100%;
-      height: 250px; }
-  .bannerseguinos {
+  .SeccionBeneficios {
+    padding-top: 6em;
+    padding-bottom: 6em;
     display: flex;
+    width: 100%;
     justify-content: center; }
-    .bannerseguinos .divseguinos img {
-      width: 100%;
-      height: 100px; } }
+    .SeccionBeneficios .ContenedorBeneficios {
+      display: block; }
+      .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios1 {
+        padding: 25px;
+        flex-wrap: wrap; }
+        .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios1 .HijitoBeneficios {
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap; }
+          .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios1 .HijitoBeneficios i {
+            font-size: 4em;
+            color: #2b2f35; }
+        .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios1 h4 {
+          padding: 0.6em;
+          color: #313838;
+          text-align: center; }
+        .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios1 .HijitoDescripcion {
+          width: 100%;
+          display: flex;
+          justify-content: center; }
+          .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios1 .HijitoDescripcion p {
+            width: 60%;
+            text-align: center;
+            color: #4c4a52; }
+      .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios2 {
+        flex-wrap: wrap;
+        padding: 25px; }
+        .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios2 .HijitoBeneficios2 {
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap; }
+          .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios2 .HijitoBeneficios2 i {
+            font-size: 4em;
+            color: #2b2f35; }
+        .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios2 h4 {
+          padding: 0.6em;
+          color: #313838;
+          text-align: center; }
+        .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios2 .HijitoDescripcion2 {
+          width: 100%;
+          display: flex;
+          justify-content: center; }
+          .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios2 .HijitoDescripcion2 p {
+            width: 60%;
+            text-align: center;
+            color: #4c4a52; }
+      .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios3 {
+        flex-wrap: wrap;
+        padding: 25px; }
+        .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios3 .HijitoBeneficios3 {
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap; }
+          .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios3 .HijitoBeneficios3 i {
+            font-size: 4em;
+            color: #2b2f35; }
+        .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios3 h4 {
+          padding: 0.6em;
+          color: #313838;
+          text-align: center; }
+        .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios3 .HijitoDescripcion3 {
+          width: 100%;
+          display: flex;
+          justify-content: center; }
+          .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios3 .HijitoDescripcion3 p {
+            width: 60%;
+            text-align: center;
+            color: #4c4a52; } }
+
+.ContenedorImagenesFlex {
+  display: flex;
+  justify-content: center;
+  width: 100%; }
+  .ContenedorImagenesFlex .ImagenesFlex {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap; }
+    .ContenedorImagenesFlex .ImagenesFlex img {
+      width: 90%;
+      padding: 1em; }
 
 .carousel {
   display: flex;
