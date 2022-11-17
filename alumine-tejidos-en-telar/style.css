@@ -976,6 +976,20 @@
       width: 90%;
       padding: 1em; }
 
+@media screen and (max-width: 320px) {
+  .ContenedorImagenesFlex {
+    display: flex;
+    justify-content: center;
+    width: 100%; }
+    .ContenedorImagenesFlex .ImagenesFlex {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      flex-wrap: wrap; }
+      .ContenedorImagenesFlex .ImagenesFlex img {
+        width: 100%;
+        padding: 1em; } }
+
 .carousel {
   display: flex;
   justify-content: center; }
@@ -988,7 +1002,8 @@
   width: 100%; }
   .SeccionAboutUs .ContenedorAboutUs .TituloPrincipal {
     text-align: center;
-    margin: 50px; }
+    margin: 50px;
+    color: #404f61; }
   .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs {
     margin-top: 100px;
     width: 100%;
@@ -1046,6 +1061,395 @@
           width: 50%;
           color: #3d3232; }
 
+@media screen and (max-width: 1024px) {
+  .carousel {
+    display: flex;
+    justify-content: center; }
+    .carousel .ContenedorCarrusel {
+      width: 90%; }
+  .SeccionAboutUs {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 2em; }
+    .SeccionAboutUs .ContenedorAboutUs .TituloPrincipal {
+      text-align: center;
+      margin: 50px; }
+    .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs {
+      margin-top: 100px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap; }
+      .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs1 {
+        width: 50%; }
+        .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs1 h3 {
+          text-align: center;
+          color: #404f61; }
+        .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs1 .contenedorP {
+          display: flex;
+          justify-content: center; }
+          .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs1 .contenedorP p {
+            text-align: center;
+            width: 70%;
+            color: #3d3232; }
+      .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs2 {
+        width: 50%; }
+        .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs2 h3 {
+          text-align: center;
+          color: #404f61; }
+        .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs2 .contenedorP {
+          display: flex;
+          justify-content: center; }
+          .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs2 .contenedorP p {
+            text-align: center;
+            width: 70%;
+            color: #3d3232; }
+      .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs3 {
+        width: 50%;
+        margin-top: 100px; }
+        .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs3 h3 {
+          text-align: center;
+          color: #404f61; }
+        .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs3 .contenedorP {
+          display: flex;
+          justify-content: center; }
+          .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs3 .contenedorP p {
+            text-align: center;
+            width: 70%;
+            color: #3d3232; }
+      .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs4 {
+        width: 50%;
+        margin-top: 100px; }
+        .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs4 h3 {
+          text-align: center;
+          color: #404f61; }
+        .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs4 .contenedorP {
+          display: flex;
+          justify-content: center; }
+          .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs4 .contenedorP p {
+            text-align: center;
+            width: 70%;
+            color: #3d3232; } }
+
+@media screen and (max-width: 768px) {
+  .carousel {
+    display: flex;
+    justify-content: center; }
+    .carousel .ContenedorCarrusel {
+      width: 90%; }
+  .SeccionAboutUs {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 2em; }
+    .SeccionAboutUs .ContenedorAboutUs .TituloPrincipal {
+      text-align: center;
+      margin: 50px; }
+    .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs {
+      margin-top: 100px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap; }
+      .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs1 {
+        width: 50%; }
+        .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs1 h3 {
+          text-align: center;
+          color: #404f61; }
+        .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs1 .contenedorP {
+          display: flex;
+          justify-content: center; }
+          .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs1 .contenedorP p {
+            text-align: center;
+            width: 80%;
+            font-size: 16px;
+            color: #3d3232; }
+      .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs2 {
+        width: 50%; }
+        .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs2 h3 {
+          text-align: center;
+          color: #404f61; }
+        .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs2 .contenedorP {
+          display: flex;
+          justify-content: center; }
+          .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs2 .contenedorP p {
+            text-align: center;
+            width: 80%;
+            font-size: 16px;
+            color: #3d3232; }
+      .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs3 {
+        width: 50%;
+        margin-top: 100px; }
+        .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs3 h3 {
+          text-align: center;
+          color: #404f61; }
+        .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs3 .contenedorP {
+          display: flex;
+          justify-content: center; }
+          .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs3 .contenedorP p {
+            text-align: center;
+            width: 80%;
+            font-size: 16px;
+            color: #3d3232; }
+      .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs4 {
+        width: 50%;
+        margin-top: 100px; }
+        .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs4 h3 {
+          text-align: center;
+          color: #404f61; }
+        .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs4 .contenedorP {
+          display: flex;
+          justify-content: center; }
+          .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs4 .contenedorP p {
+            text-align: center;
+            width: 80%;
+            font-size: 16px;
+            color: #3d3232; } }
+
+@media screen and (max-width: 768px) {
+  .carousel {
+    display: flex;
+    justify-content: center; }
+    .carousel .ContenedorCarrusel {
+      width: 90%; }
+  .SeccionAboutUs {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 2em; }
+    .SeccionAboutUs .ContenedorAboutUs .TituloPrincipal {
+      text-align: center;
+      margin: 50px; }
+    .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs {
+      margin-top: 100px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap; }
+      .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs1 {
+        width: 100%;
+        flex-wrap: wrap;
+        margin-top: 2em; }
+        .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs1 h3 {
+          text-align: center;
+          color: #404f61; }
+        .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs1 .contenedorP {
+          display: flex;
+          justify-content: center; }
+          .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs1 .contenedorP p {
+            text-align: center;
+            width: 60%;
+            font-size: 16px;
+            color: #3d3232; }
+      .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs2 {
+        width: 100%;
+        flex-wrap: wrap;
+        margin-top: 4em; }
+        .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs2 h3 {
+          text-align: center;
+          color: #404f61; }
+        .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs2 .contenedorP {
+          display: flex;
+          justify-content: center; }
+          .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs2 .contenedorP p {
+            text-align: center;
+            width: 60%;
+            font-size: 16px;
+            color: #3d3232; }
+      .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs3 {
+        width: 100%;
+        margin-top: 4em;
+        flex-wrap: wrap; }
+        .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs3 h3 {
+          text-align: center;
+          color: #404f61; }
+        .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs3 .contenedorP {
+          display: flex;
+          justify-content: center; }
+          .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs3 .contenedorP p {
+            text-align: center;
+            width: 60%;
+            font-size: 16px;
+            color: #3d3232; }
+      .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs4 {
+        width: 100%;
+        margin-top: 4em;
+        flex-wrap: wrap; }
+        .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs4 h3 {
+          text-align: center;
+          color: #404f61; }
+        .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs4 .contenedorP {
+          display: flex;
+          justify-content: center; }
+          .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs4 .contenedorP p {
+            text-align: center;
+            width: 60%;
+            font-size: 16px;
+            color: #3d3232; } }
+
+@media screen and (max-width: 768px) {
+  .carousel {
+    display: flex;
+    justify-content: center; }
+    .carousel .ContenedorCarrusel {
+      width: 90%; }
+  .SeccionAboutUs {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 2em; }
+    .SeccionAboutUs .ContenedorAboutUs .TituloPrincipal {
+      text-align: center;
+      margin: 50px; }
+    .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs {
+      margin-top: 100px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap; }
+      .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs1 {
+        width: 100%;
+        flex-wrap: wrap;
+        margin-top: 2em; }
+        .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs1 h3 {
+          text-align: center;
+          color: #404f61; }
+        .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs1 .contenedorP {
+          display: flex;
+          justify-content: center; }
+          .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs1 .contenedorP p {
+            text-align: center;
+            width: 60%;
+            font-size: 14px;
+            color: #3d3232; }
+      .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs2 {
+        width: 100%;
+        flex-wrap: wrap;
+        margin-top: 4em; }
+        .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs2 h3 {
+          text-align: center;
+          color: #404f61; }
+        .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs2 .contenedorP {
+          display: flex;
+          justify-content: center; }
+          .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs2 .contenedorP p {
+            text-align: center;
+            width: 60%;
+            font-size: 14px;
+            color: #3d3232; }
+      .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs3 {
+        width: 100%;
+        margin-top: 4em;
+        flex-wrap: wrap; }
+        .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs3 h3 {
+          text-align: center;
+          color: #404f61; }
+        .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs3 .contenedorP {
+          display: flex;
+          justify-content: center; }
+          .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs3 .contenedorP p {
+            text-align: center;
+            width: 60%;
+            font-size: 14px;
+            color: #3d3232; }
+      .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs4 {
+        width: 100%;
+        margin-top: 4em;
+        flex-wrap: wrap; }
+        .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs4 h3 {
+          text-align: center;
+          color: #404f61; }
+        .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs4 .contenedorP {
+          display: flex;
+          justify-content: center; }
+          .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs4 .contenedorP p {
+            text-align: center;
+            width: 60%;
+            font-size: 14px;
+            color: #3d3232; } }
+
+@media screen and (max-width: 768px) {
+  .carousel {
+    display: flex;
+    justify-content: center; }
+    .carousel .ContenedorCarrusel {
+      width: 90%; }
+  .SeccionAboutUs {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 2em; }
+    .SeccionAboutUs .ContenedorAboutUs .TituloPrincipal {
+      text-align: center;
+      margin: 50px; }
+    .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs {
+      margin-top: 100px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap; }
+      .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs1 {
+        width: 100%;
+        flex-wrap: wrap;
+        margin-top: 2em; }
+        .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs1 h3 {
+          text-align: center;
+          color: #404f61; }
+        .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs1 .contenedorP {
+          display: flex;
+          justify-content: center; }
+          .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs1 .contenedorP p {
+            text-align: center;
+            width: 60%;
+            font-size: 13px;
+            color: #3d3232; }
+      .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs2 {
+        width: 100%;
+        flex-wrap: wrap;
+        margin-top: 4em; }
+        .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs2 h3 {
+          text-align: center;
+          color: #404f61; }
+        .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs2 .contenedorP {
+          display: flex;
+          justify-content: center; }
+          .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs2 .contenedorP p {
+            text-align: center;
+            width: 60%;
+            font-size: 13px;
+            color: #3d3232; }
+      .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs3 {
+        width: 100%;
+        margin-top: 4em;
+        flex-wrap: wrap; }
+        .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs3 h3 {
+          text-align: center;
+          color: #404f61; }
+        .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs3 .contenedorP {
+          display: flex;
+          justify-content: center; }
+          .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs3 .contenedorP p {
+            text-align: center;
+            width: 60%;
+            font-size: 13px;
+            color: #3d3232; }
+      .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs4 {
+        width: 100%;
+        margin-top: 4em;
+        flex-wrap: wrap; }
+        .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs4 h3 {
+          text-align: center;
+          color: #404f61; }
+        .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs4 .contenedorP {
+          display: flex;
+          justify-content: center; }
+          .SeccionAboutUs .ContenedorAboutUs .PadreAboutUs .HijoAboutUs4 .contenedorP p {
+            text-align: center;
+            width: 60%;
+            font-size: 13px;
+            color: #3d3232; } }
+
 .row {
   margin-right: 0; }
   .row .col .card {
@@ -1084,6 +1488,226 @@
   margin-top: 100px;
   display: flex;
   justify-content: center; }
+
+.ProductosVerMas {
+  display: flex;
+  justify-content: center; }
+  .ProductosVerMas input {
+    padding: 4px;
+    border: 1px;
+    border-radius: 3px;
+    background-color: #467ebe;
+    color: white; }
+
+@media screen and (max-width: 1024px) {
+  .row {
+    margin-right: 0; }
+    .row .col .card {
+      display: flex;
+      margin: 10px;
+      width: 100%; }
+    .row .col .card-body .card-text {
+      font-size: 13px; }
+    .row .col .ProductoForm {
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0; }
+      .row .col .ProductoForm .Formulario1 {
+        height: 10%;
+        margin-bottom: 4px; }
+        .row .col .ProductoForm .Formulario1 input {
+          padding: 4px;
+          border: 1px;
+          border-radius: 5px;
+          background-color: #467ebe;
+          color: white;
+          margin-bottom: 3px; }
+  .BottonsProduct {
+    display: flex;
+    justify-content: flex-start;
+    height: 0; }
+    .BottonsProduct form {
+      display: inline; }
+      .BottonsProduct form input {
+        padding: 5px;
+        border: 1px;
+        border-radius: 5px;
+        color: white;
+        background-color: #467ebe; }
+  .Ver-masCard {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center; }
+  .ProductosVerMas {
+    display: flex;
+    justify-content: center; }
+    .ProductosVerMas input {
+      padding: 4px;
+      border: 1px;
+      border-radius: 3px;
+      background-color: #467ebe;
+      color: white; } }
+
+@media screen and (max-width: 768px) {
+  .row {
+    margin-right: 0; }
+    .row .col .card {
+      display: flex;
+      margin: 10px;
+      width: 100%; }
+    .row .col .card-body .card-text {
+      font-size: 11px; }
+    .row .col .ProductoForm {
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0; }
+      .row .col .ProductoForm .Formulario1 {
+        height: 10%;
+        margin-bottom: 4px; }
+        .row .col .ProductoForm .Formulario1 input {
+          padding: 4px;
+          border: 1px;
+          font-size: 14px;
+          border-radius: 5px;
+          background-color: #467ebe;
+          color: white;
+          margin-bottom: 3px; }
+  .BottonsProduct {
+    display: flex;
+    justify-content: flex-start;
+    height: 0; }
+    .BottonsProduct form {
+      display: inline; }
+      .BottonsProduct form input {
+        padding: 5px;
+        border: 1px;
+        border-radius: 5px;
+        color: white;
+        background-color: #467ebe; }
+  .Ver-masCard {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center; }
+  .ProductosVerMas {
+    display: flex;
+    justify-content: center; }
+    .ProductosVerMas input {
+      padding: 4px;
+      border: 1px;
+      border-radius: 3px;
+      background-color: #467ebe;
+      color: white; } }
+
+@media screen and (max-width: 480px) {
+  .row {
+    display: flex;
+    justify-content: center;
+    margin-right: 0; }
+    .row .col {
+      margin-right: 8px; }
+      .row .col .card {
+        display: flex;
+        margin: 10px;
+        width: 100%; }
+      .row .col .card-body .card-text {
+        font-size: 14px; }
+      .row .col .ProductoForm {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0; }
+        .row .col .ProductoForm .Formulario1 {
+          height: 10%;
+          margin-bottom: 4px; }
+          .row .col .ProductoForm .Formulario1 input {
+            padding: 6px;
+            border: 1px;
+            font-size: 18px;
+            border-radius: 5px;
+            background-color: #467ebe;
+            color: white;
+            margin-bottom: 3px; }
+  .BottonsProduct {
+    display: flex;
+    justify-content: flex-start;
+    height: 0; }
+    .BottonsProduct form {
+      display: inline; }
+      .BottonsProduct form input {
+        padding: 5px;
+        border: 1px;
+        border-radius: 5px;
+        color: white;
+        background-color: #467ebe; }
+  .Ver-masCard {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center; }
+  .ProductosVerMas {
+    display: flex;
+    justify-content: center; }
+    .ProductosVerMas input {
+      padding: 4px;
+      border: 1px;
+      border-radius: 3px;
+      background-color: #467ebe;
+      color: white; } }
+
+@media screen and (max-width: 320px) {
+  .row {
+    display: flex;
+    justify-content: center; }
+    .row .col {
+      width: 100%;
+      margin-right: 8px; }
+      .row .col .card {
+        display: flex;
+        width: 100%; }
+      .row .col .card-body .card-text {
+        font-size: 14px; }
+      .row .col .ProductoForm {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0; }
+        .row .col .ProductoForm .Formulario1 {
+          height: 10%;
+          margin-bottom: 4px; }
+          .row .col .ProductoForm .Formulario1 input {
+            padding: 6px;
+            border: 1px;
+            font-size: 18px;
+            border-radius: 5px;
+            background-color: #467ebe;
+            color: white;
+            margin-bottom: 3px; }
+  .BottonsProduct {
+    display: flex;
+    justify-content: flex-start;
+    height: 0; }
+    .BottonsProduct form {
+      display: inline; }
+      .BottonsProduct form input {
+        padding: 5px;
+        border: 1px;
+        border-radius: 5px;
+        color: white;
+        background-color: #467ebe; }
+  .Ver-masCard {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center; }
+  .ProductosVerMas {
+    display: flex;
+    justify-content: center; }
+    .ProductosVerMas input {
+      padding: 4px;
+      border: 1px;
+      border-radius: 3px;
+      background-color: #467ebe;
+      color: white; } }
 
 .UniteFamily {
   display: flex;
