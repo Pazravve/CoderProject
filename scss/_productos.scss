@@ -11,7 +11,6 @@
             margin: 0;
             padding: 0;
             .Formulario1{
-                height: 10%;
                 input{
                     padding: 4px;
                     border: 1px;
@@ -19,6 +18,7 @@
                     background-color: $color_principal;
                     color: white;
                     margin-bottom: 3px;
+                    margin: 3px;
                 }
             }
         }
@@ -29,7 +29,7 @@
 .BottonsProduct{
     display: flex;
     justify-content: flex-start;
-    height: 0;
+    margin-bottom: 30px;
     form{
         display: inline;
         input{
@@ -44,10 +44,12 @@
 
 .Ver-masCard{
     margin-top: 100px;
+    margin-bottom: 20px;
     @include display-flex-just;
 }
 
 .ProductosVerMas{
+    margin-bottom: 10px;
     display: flex;
     justify-content: center;
     input{
@@ -198,6 +200,94 @@
         }
     }
 }
+
+
+@media screen and(max-width: 600px){
+    .row{
+        display: flex;
+        justify-content: center;
+        margin-right: 0;
+                    .col-md-4{
+                img{
+                    width: 100%;
+                }
+            }
+        .col{
+            margin-right: 8px;
+            .card{
+                display: flex;
+                margin: 10px;
+            }
+            .card-body{
+                margin-bottom: 100px;
+                .card-text{
+                    font-size: 14px
+                }
+            }
+            .ProductoForm{
+                @include display-flex-just;
+                margin: 0;
+                padding: 0;
+                .Formulario1{
+                    height: 10%;
+                    margin-bottom: 4px;
+                    input{
+                        padding: 6px;
+                        border: 1px;
+                        font-size: 18px;
+                        border-radius: 5px;
+                        background-color: $color_principal;
+                        color: white;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+    }
+    
+    
+    .BottonsProduct{
+        display: flex;
+        justify-content: flex-start;
+        height: 0;
+        form{
+            display: inline;
+            input{
+                padding: 5px;
+                border: 1px;
+                border-radius: 5px;
+                color: white;
+                background-color:  $color_principal;
+            }
+        }
+    }
+    
+    .Ver-masCard{
+        margin-top: 100px;
+        @include display-flex-just;
+    }
+    .hjk-1{
+        .card-title2{
+            font-size: 18px;
+        }
+        .card-text:last-child{
+            font-size: 13px;
+        }
+    }
+    .ProductosVerMas{
+        display: flex;
+        justify-content: center;
+        input{
+            padding: 4px;
+            border: 1px;
+            border-radius: 3px;
+            background-color: #467ebe;
+            color: white;
+        }
+    }
+}
+
+
 
 @media screen and(max-width: 480px){
     .row{
