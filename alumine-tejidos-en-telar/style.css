@@ -1,174 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500&display=swap");
-.seccionprincipal {
-  background-color: #467ebe; }
-  .seccionprincipal header .DIVDETODO {
-    display: flex; }
-    .seccionprincipal header .DIVDETODO .principalNavBar {
-      display: flex;
-      align-items: flex-end;
-      justify-content: center;
-      text-align: center;
-      width: 100%;
-      margin-top: 40px;
-      margin-bottom: 40px; }
-      .seccionprincipal header .DIVDETODO .principalNavBar .NavBar ul {
-        text-align: center;
-        padding-left: 0px; }
-        .seccionprincipal header .DIVDETODO .principalNavBar .NavBar ul li {
-          margin-bottom: 5px;
-          padding: 20px;
-          display: inline;
-          list-style: none;
-          font-size: 20px;
-          font-family: 'Lexend Deca', sans-serif; }
-          .seccionprincipal header .DIVDETODO .principalNavBar .NavBar ul li a {
-            text-decoration: none;
-            color: white; }
-            .seccionprincipal header .DIVDETODO .principalNavBar .NavBar ul li a:hover {
-              color: #d8e1f1;
-              transition: 0.2s;
-              border-bottom: 5px solid #b6abf7;
-              width: 110px;
-              padding-bottom: 2px;
-              cursor: pointer; }
-
-@media screen and (max-width: 768px) {
-  .seccionprincipal {
-    background-color: #467ebe;
+header {
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  background-color: #b9dddd; }
+  header .navbar {
     width: 100%; }
-    .seccionprincipal header .DIVDETODO {
-      display: flex; }
-      .seccionprincipal header .DIVDETODO .principalNavBar {
+    header .navbar .container-fluid {
+      background-color: #b9dddd; }
+      header .navbar .container-fluid .bg-light {
+        background-color: #b9dddd; }
+      header .navbar .container-fluid .Navbar-logo {
         display: flex;
-        align-items: flex-end;
-        justify-content: center;
-        text-align: center;
-        width: 100%;
-        margin-top: 30px;
-        margin-bottom: 30px; }
-        .seccionprincipal header .DIVDETODO .principalNavBar .NavBar ul {
-          padding-left: 0px;
-          text-align: center; }
-          .seccionprincipal header .DIVDETODO .principalNavBar .NavBar ul li {
-            padding: 15px;
-            display: inline;
-            list-style: none;
-            font-size: 15px;
-            font-family: 'Lexend Deca', sans-serif; }
-            .seccionprincipal header .DIVDETODO .principalNavBar .NavBar ul li a {
-              text-decoration: none;
-              color: white; }
-              .seccionprincipal header .DIVDETODO .principalNavBar .NavBar ul li a:hover {
-                color: #d8e1f1;
-                transition: 0.2s;
-                border-bottom: 5px solid #b6abf7;
-                width: 110px;
-                padding-bottom: 2px;
-                cursor: pointer; } }
-
-@media screen and (max-width: 600px) {
-  .seccionprincipal {
-    background-color: #467ebe;
-    width: 100%; }
-    .seccionprincipal header .DIVDETODO {
-      display: flex; }
-      .seccionprincipal header .DIVDETODO .principalNavBar {
-        display: flex;
-        align-items: flex-end;
-        justify-content: center;
-        text-align: center;
-        width: 100%;
-        margin-top: 30px;
-        margin-bottom: 30px; }
-        .seccionprincipal header .DIVDETODO .principalNavBar .NavBar ul {
-          padding-left: 0px;
-          text-align: center; }
-          .seccionprincipal header .DIVDETODO .principalNavBar .NavBar ul li {
-            padding: 15px;
-            display: inline;
-            list-style: none;
-            font-size: 15px;
-            font-family: 'Lexend Deca', sans-serif; }
-            .seccionprincipal header .DIVDETODO .principalNavBar .NavBar ul li a {
-              text-decoration: none;
-              color: white; }
-              .seccionprincipal header .DIVDETODO .principalNavBar .NavBar ul li a:hover {
-                color: #d8e1f1;
-                transition: 0.2s;
-                border-bottom: 5px solid #b6abf7;
-                width: 110px;
-                padding-bottom: 2px;
-                cursor: pointer; } }
-
-@media screen and (max-width: 480px) {
-  .seccionprincipal {
-    background-color: #467ebe;
-    width: 100%; }
-    .seccionprincipal header .DIVDETODO {
-      display: flex;
-      width: 100%; }
-      .seccionprincipal header .DIVDETODO .principalNavBar {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        width: 100%;
-        margin-top: 30px;
-        margin-bottom: 20px; }
-        .seccionprincipal header .DIVDETODO .principalNavBar .NavBar ul {
-          padding-left: 0px;
-          text-align: center; }
-          .seccionprincipal header .DIVDETODO .principalNavBar .NavBar ul li {
-            padding: 10px;
-            display: inline;
-            list-style: none;
-            font-size: 14px;
-            font-family: 'Lexend Deca', sans-serif; }
-            .seccionprincipal header .DIVDETODO .principalNavBar .NavBar ul li a {
-              text-decoration: none;
-              color: white; }
-              .seccionprincipal header .DIVDETODO .principalNavBar .NavBar ul li a:hover {
-                color: #d8e1f1;
-                transition: 0.2s;
-                border-bottom: 5px solid #b6abf7;
-                width: 110px;
-                padding-bottom: 2px;
-                cursor: pointer; } }
-
-@media screen and (max-width: 320px) {
-  .seccionprincipal {
-    background-color: #467ebe;
-    width: 100%; }
-    .seccionprincipal header .DIVDETODO {
-      display: flex;
-      width: 100%; }
-      .seccionprincipal header .DIVDETODO .principalNavBar {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        width: 100%;
-        margin-top: 30px;
-        margin-bottom: 20px; }
-        .seccionprincipal header .DIVDETODO .principalNavBar .NavBar ul {
-          padding-left: 0px;
-          text-align: center; }
-          .seccionprincipal header .DIVDETODO .principalNavBar .NavBar ul li {
-            padding: 7px;
-            display: inline;
-            list-style: none;
-            font-size: 10px;
-            font-family: 'Lexend Deca', sans-serif; }
-            .seccionprincipal header .DIVDETODO .principalNavBar .NavBar ul li a {
-              text-decoration: none;
-              color: white; }
-              .seccionprincipal header .DIVDETODO .principalNavBar .NavBar ul li a:hover {
-                color: #d8e1f1;
-                transition: 0.2s;
-                border-bottom: 5px solid #b6abf7;
-                width: 110px;
-                padding-bottom: 2px;
-                cursor: pointer; } }
+        justify-content: flex-start; }
 
 * {
   margin: 0%;
