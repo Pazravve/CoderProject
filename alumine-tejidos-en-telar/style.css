@@ -179,43 +179,47 @@
 
 .SeccionFooter {
   background-color: #467ebe;
-  width: 100%; }
-  .SeccionFooter footer .ContenedorFooter {
-    width: 100%;
-    padding-top: 25px; }
-    .SeccionFooter footer .ContenedorFooter .ContImagen {
-      display: flex;
-      justify-content: center;
-      margin-bottom: 20px; }
-    .SeccionFooter footer .ContenedorFooter .ContNavegacion {
-      display: flex;
-      justify-content: center; }
-      .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreNavegacion {
-        justify-content: center;
-        flex-wrap: wrap;
-        width: 100%; }
-        .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreNavegacion ul {
-          width: 100%;
-          display: flex;
-          justify-content: center;
-          padding-bottom: 15px; }
-          .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreNavegacion ul li {
-            list-style: none; }
-            .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreNavegacion ul li a {
-              text-decoration: none;
-              color: white;
-              margin: 20px; }
-    .SeccionFooter footer .ContenedorFooter .PadreCopyright {
-      display: flex;
-      justify-content: center;
+  width: 100%;
+  margin-bottom: auto; }
+  .SeccionFooter footer {
+    margin-bottom: auto; }
+    .SeccionFooter footer .ContenedorFooter {
       width: 100%;
-      color: white; }
-      .SeccionFooter footer .ContenedorFooter .PadreCopyright p {
-        border-top: 2px solid #75b3b8;
-        padding: 20px; }
-        .SeccionFooter footer .ContenedorFooter .PadreCopyright p a {
-          text-decoration: none;
-          color: white; }
+      padding-top: 25px; }
+      .SeccionFooter footer .ContenedorFooter .ContImagen {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px; }
+      .SeccionFooter footer .ContenedorFooter .ContNavegacion {
+        display: flex;
+        justify-content: center; }
+        .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreNavegacion {
+          justify-content: center;
+          flex-wrap: wrap;
+          width: 100%; }
+          .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreNavegacion ul {
+            padding-left: 0px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            padding-bottom: 15px; }
+            .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreNavegacion ul li {
+              list-style: none; }
+              .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreNavegacion ul li a {
+                text-decoration: none;
+                color: white;
+                margin: 20px; }
+      .SeccionFooter footer .ContenedorFooter .PadreCopyright {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        color: white; }
+        .SeccionFooter footer .ContenedorFooter .PadreCopyright p {
+          border-top: 2px solid #75b3b8;
+          padding: 20px; }
+          .SeccionFooter footer .ContenedorFooter .PadreCopyright p a {
+            text-decoration: none;
+            color: white; }
 
 @media screen and (max-width: 768px) {
   .SeccionFooter {
@@ -232,16 +236,17 @@
         display: flex;
         justify-content: center; }
         .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreNavegacion {
-          justify-content: center;
           flex-wrap: wrap;
           width: 100%; }
           .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreNavegacion ul {
+            padding-left: 0px;
             width: 100%;
             display: flex;
             justify-content: center;
             padding-bottom: 15px; }
             .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreNavegacion ul li {
-              list-style: none; }
+              list-style: none;
+              text-align: center; }
               .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreNavegacion ul li a {
                 font-size: 14px;
                 text-decoration: none;
@@ -281,6 +286,7 @@
           flex-wrap: wrap;
           width: 100%; }
           .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreNavegacion ul {
+            padding-left: 0px;
             width: 100%;
             display: flex;
             justify-content: center;
@@ -326,6 +332,7 @@
           flex-wrap: wrap;
           width: 100%; }
           .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreNavegacion ul {
+            padding-left: 0px;
             width: 100%;
             display: flex;
             justify-content: center;
@@ -371,6 +378,7 @@
           flex-wrap: wrap;
           width: 100%; }
           .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreNavegacion ul {
+            padding-left: 0px;
             width: 90%;
             display: flex;
             justify-content: center;

@@ -1,7 +1,9 @@
 .SeccionFooter{
     background-color: $color_principal;
     width: 100%;
+    margin-bottom: auto;
     footer{
+        margin-bottom: auto;
         .ContenedorFooter{
             width: 100%;
             padding-top: 25px;
@@ -18,6 +20,7 @@
                     flex-wrap: wrap;
                     width: 100%;
                     ul{
+                        padding-left: 0px;
                         width: 100%;
                         display: flex;
                         justify-content: center;
@@ -68,16 +71,17 @@
                     display: flex;
                     justify-content: center;
                     .PadreNavegacion{
-                        justify-content: center;
                         flex-wrap: wrap;
                         width: 100%;
                         ul{
+                            padding-left: 0px;
                             width: 100%;
                             display: flex;
                             justify-content: center;
                             padding-bottom: 15px;
                             li{
                                 list-style: none;
+                                text-align: center;
                                 a{
                                     font-size: 14px;
                                     text-decoration: none;
@@ -133,6 +137,7 @@
                         flex-wrap: wrap;
                         width: 100%;
                         ul{
+                            padding-left: 0px;
                             width: 100%;
                             display: flex;
                             justify-content: center;
@@ -193,6 +198,7 @@
                         flex-wrap: wrap;
                         width: 100%;
                         ul{
+                            padding-left: 0px;
                             width: 100%;
                             display: flex;
                             justify-content: center;
@@ -253,6 +259,7 @@
                         flex-wrap: wrap;
                         width: 100%;
                         ul{
+                            padding-left: 0px;
                             width: 90%;
                             display: flex;
                             justify-content: center;
