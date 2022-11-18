@@ -1263,6 +1263,8 @@
     .ContenedorImagenesFlex .ImagenesFlex img {
       width: 90%;
       padding: 1em; }
+  .ContenedorImagenesFlex .ImagenesFlexCelular {
+    display: none; }
 
 @media screen and (max-width: 1200px) {
   .ContenedorImagenesFlex {
