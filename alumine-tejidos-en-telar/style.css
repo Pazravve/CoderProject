@@ -5,13 +5,11 @@ header {
   display: flex;
   justify-content: center;
   padding: 1em;
-  background-color: #b9dddd; }
+  background-color: #e0e2f7; }
   header .navbar {
     width: 100%; }
     header .navbar .container-fluid {
-      background-color: #b9dddd; }
-      header .navbar .container-fluid .bg-light {
-        background-color: #b9dddd; }
+      background-color: #e0e2f7; }
       header .navbar .container-fluid .Navbar-logo {
         display: flex;
         justify-content: flex-start; }
@@ -1196,9 +1194,14 @@ header {
       display: flex;
       justify-content: center;
       flex-wrap: wrap; }
+      .ContenedorImagenesFlex .ImagenesFlexCelular .top-img {
+        padding-top: 0; }
       .ContenedorImagenesFlex .ImagenesFlexCelular img {
-        padding: 0.5em;
-        width: 95%; } }
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%; } }
 
 @media screen and (max-width: 320px) {
   .ContenedorImagenesFlex {
@@ -1212,9 +1215,14 @@ header {
       display: flex;
       justify-content: center;
       flex-wrap: wrap; }
+      .ContenedorImagenesFlex .ImagenesFlexCelular .top-img {
+        padding-top: 0; }
       .ContenedorImagenesFlex .ImagenesFlexCelular img {
-        padding: 0.5em;
-        width: 95%; } }
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%; } }
 
 .carousel {
   display: flex;

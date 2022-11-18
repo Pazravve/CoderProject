@@ -109,9 +109,15 @@
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
+            .top-img{
+                padding-top: 0;
+            }
             img{
-                padding: 0.5em;
-                width: 95%;
+                padding-top: 0.5em;
+                padding-bottom: 0.5em;
+                padding-left: 0;
+                padding-right: 0;
+                width: 100%;
             }
         }
     }
@@ -129,9 +135,15 @@
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
+            .top-img{
+                padding-top: 0;
+            }
             img{
-                padding: 0.5em;
-                width: 95%;
+                padding-top: 0.5em;
+                padding-bottom: 0.5em;
+                padding-left: 0;
+                padding-right: 0;
+                width: 100%;
             }
         }
     }
