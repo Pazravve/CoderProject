@@ -88,6 +88,103 @@
     }
 }
 
+@media screen and(max-width: 768px){
+    .SeccionBeneficios{
+        padding-top: 6em;
+        padding-bottom: 6em;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        .ContenedorBeneficios{
+            display: flex;
+            justify-content: centermnp;
+            .PadreBeneficios1{
+                padding: 25px;
+                .HijitoBeneficios{
+                    display: flex;
+                    justify-content: center;
+                    i{
+                        font-size: 3em;
+                        color: #2b2f35;
+                    }
+                }
+                h4{
+                    font-size: 17px;
+                    padding: 0.6em;
+                    color: rgb(49, 56, 56);
+                    text-align: center;
+                }
+                .HijitoDescripcion{
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    p{
+                        font-size: 14px;
+                        width: 90%;
+                        text-align: center;
+                        color: rgb(76, 74, 82);
+                    }
+                }
+            }
+            .PadreBeneficios2{
+                padding: 25px;
+                .HijitoBeneficios2{
+                    display: flex;
+                    justify-content: center;
+                    i{
+                        font-size: 3em;
+                        color: #2b2f35;
+                    }
+                }
+                h4{
+                    font-size: 17px;
+                    padding: 0.6em;
+                    color: rgb(49, 56, 56);
+                    text-align: center;
+                }
+                .HijitoDescripcion2{
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    p{
+                        font-size: 14px;
+                        width: 90%;
+                        text-align: center;
+                        color: rgb(76, 74, 82);
+                    }
+                }
+            }
+            .PadreBeneficios3{
+                padding: 25px;
+                .HijitoBeneficios3{
+                    display: flex;
+                    justify-content: center;
+                    i{
+                        font-size: 3em;
+                        color: #2b2f35;
+                    }
+                }
+                h4{
+                    font-size: 17px;
+                    padding: 0.6em;
+                    color: rgb(49, 56, 56);
+                    text-align: center;
+                }
+                .HijitoDescripcion3{
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    p{
+                        font-size: 14px;
+                        width: 90%;
+                        text-align: center;
+                        color: rgb(76, 74, 82);
+                    }
+                }
+            }
+        }
+    }
+}
 
 @media screen and(max-width: 600px){
     .SeccionBeneficios{

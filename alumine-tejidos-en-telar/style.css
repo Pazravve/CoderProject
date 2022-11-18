@@ -461,7 +461,6 @@
       justify-content: center;
       margin-top: 80px; }
       .PadreContacto .ContenedorFormulario .CajaFormulario form {
-        height: 500px;
         display: flex;
         flex-direction: column;
         align-items: center; }
@@ -493,141 +492,81 @@
           color: white; }
 
 @media screen and (max-width: 1024px) {
-  .PadreContacto .ContenedorFormulario .texto1 {
-    border: 1px solid #8c8b8b;
-    border-radius: 2px;
-    margin-bottom: 15px;
-    width: 400px;
-    padding: 15px; }
-  .PadreContacto .ContenedorFormulario .texto2 {
-    border: 1px solid #8c8b8b;
-    border-radius: 2px;
-    margin-bottom: 15px;
-    width: 400px;
-    height: 120px;
-    padding: 15px; }
-  .PadreContacto .ContenedorFormulario .texto3 {
-    border: 1px;
-    border-radius: 2px;
-    padding: 13px;
-    width: 100px;
-    background-color: #467ebe;
-    color: white; }
-  .contactanosimagen {
-    display: flex;
-    justify-content: center; }
-    .contactanosimagen img {
-      margin: 40px;
-      width: 80%;
-      margin-right: 30px;
-      height: 400px; } }
-
-@media screen and (max-width: 768px) {
-  .PadreContacto .ContenedorFormulario .texto1 {
-    border: 1px solid rgba(188, 188, 188, 0.582);
-    border-radius: 2px;
-    margin-bottom: 15px;
-    width: 300px;
-    padding: 15px; }
-  .PadreContacto .ContenedorFormulario .texto2 {
-    border: 1px solid rgba(188, 188, 188, 0.582);
-    border-radius: 2px;
-    margin-bottom: 15px;
-    width: 300px;
-    height: 120px;
-    padding: 15px; }
-  .PadreContacto .ContenedorFormulario .texto3 {
-    border: 1px;
-    border-radius: 2px;
-    padding: 13px;
-    width: 100px;
-    background-color: #467ebe;
-    color: white; }
-  .contactanosimagen {
-    display: flex;
-    justify-content: center; }
-    .contactanosimagen img {
-      margin: 40px;
-      width: 80%;
-      margin-right: 30px;
-      height: 300px; } }
-
-@media screen and (max-width: 600px) {
   .PadreContacto {
     display: flex;
-    width: 100%;
-    height: 900px;
-    flex-wrap: wrap; }
+    width: 100%; }
     .PadreContacto .ContenedorDatos {
-      width: 100%;
+      width: 50%;
       margin-top: 80px;
-      margin-left: 0; }
+      margin-left: 50px; }
       .PadreContacto .ContenedorDatos .h2editar0 {
-        text-align: center;
         color: #467ebe;
         margin-bottom: 15px;
         margin-top: 10px;
         font-size: 1.5em; }
         .PadreContacto .ContenedorDatos .h2editar0:hover {
-          border-bottom: 5px solid #b6abf7;
+          border-bottom: 5px solid #467ebe;
           width: 150px;
           padding-bottom: 2px;
           cursor: pointer;
-          color: #97a3fa;
+          color: #467ebe;
           transition: 0.4s; }
-        .PadreContacto .ContenedorDatos .h2editar0 p {
-          padding: 6px;
-          text-align: center; }
-          .PadreContacto .ContenedorDatos .h2editar0 p a {
-            text-decoration: none;
-            color: black; }
+      .PadreContacto .ContenedorDatos p {
+        padding: 6px; }
+        .PadreContacto .ContenedorDatos p a {
+          text-decoration: none;
+          color: black; }
       .PadreContacto .ContenedorDatos .h2editar {
-        text-align: center;
         color: #467ebe;
         margin-bottom: 15px;
         margin-top: 10px;
         font-size: 1.5em; }
         .PadreContacto .ContenedorDatos .h2editar:hover {
-          border-bottom: 5px solid #b6abf7;
+          border-bottom: 5px solid #d8e1f1;
           width: 200px;
           padding-bottom: 2px;
           cursor: pointer;
-          color: #b6abf7;
+          color: #467ebe;
           transition: 0.4s; }
       .PadreContacto .ContenedorDatos .SocialMedia {
         display: flex;
-        justify-content: center; }
-        .PadreContacto .ContenedorDatos .SocialMedia li {
+        justify-content: flex-start; }
+        .PadreContacto .ContenedorDatos .SocialMedia ul li {
           list-style: none;
-          display: inline;
-          justify-content: center; }
-          .PadreContacto .ContenedorDatos .SocialMedia li a {
+          display: inline; }
+          .PadreContacto .ContenedorDatos .SocialMedia ul li i {
             font-size: 35px;
             padding: 5px;
             color: #467ebe; }
     .PadreContacto .ContenedorFormulario {
-      width: 100%; }
+      width: 50%; }
       .PadreContacto .ContenedorFormulario .CajaFormulario {
+        width: 100%;
         display: flex;
         justify-content: center;
-        width: 100%;
         margin-top: 80px; }
         .PadreContacto .ContenedorFormulario .CajaFormulario form {
-          height: 500px;
+          width: 100%;
           display: flex;
           flex-direction: column;
           align-items: center; }
+          .PadreContacto .ContenedorFormulario .CajaFormulario form label {
+            color: #467ebe;
+            width: 100%;
+            margin-left: 12px;
+            margin-bottom: 6px;
+            display: flex; }
           .PadreContacto .ContenedorFormulario .CajaFormulario form .texto1 {
-            border: 1px solid rgba(188, 188, 188, 0.582);
+            border: 1px solid #979797;
             border-radius: 2px;
             margin-bottom: 15px;
-            width: 500px;
+            width: 90%;
             padding: 15px; }
           .PadreContacto .ContenedorFormulario .CajaFormulario form .texto2 {
-            border: 1px solid rgba(188, 188, 188, 0.582);
+            border: 1px solid #979797;
             border-radius: 2px;
             margin-bottom: 15px;
-            width: 500px;
+            width: 90%;
             height: 120px;
             padding: 15px; }
           .PadreContacto .ContenedorFormulario .CajaFormulario form .texto3 {
@@ -636,21 +575,98 @@
             padding: 13px;
             width: 100px;
             background-color: #467ebe;
-            color: white; }
-  .contactanosimagen {
-    display: flex;
-    justify-content: center; }
-    .contactanosimagen img {
-      margin: 40px;
-      width: 80%;
-      margin-right: 30px;
-      height: 300px; } }
+            color: white; } }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
+  .PadreContacto {
+    display: flex;
+    width: 100%; }
+    .PadreContacto .ContenedorDatos {
+      width: 50%;
+      margin-top: 80px;
+      margin-left: 50px; }
+      .PadreContacto .ContenedorDatos .h2editar0 {
+        color: #467ebe;
+        margin-bottom: 15px;
+        margin-top: 10px;
+        font-size: 1.5em; }
+        .PadreContacto .ContenedorDatos .h2editar0:hover {
+          border-bottom: 5px solid #467ebe;
+          width: 150px;
+          padding-bottom: 2px;
+          cursor: pointer;
+          color: #467ebe;
+          transition: 0.4s; }
+      .PadreContacto .ContenedorDatos p {
+        padding: 6px; }
+        .PadreContacto .ContenedorDatos p a {
+          text-decoration: none;
+          color: black; }
+      .PadreContacto .ContenedorDatos .h2editar {
+        color: #467ebe;
+        margin-bottom: 15px;
+        margin-top: 10px;
+        font-size: 1.5em; }
+        .PadreContacto .ContenedorDatos .h2editar:hover {
+          border-bottom: 5px solid #d8e1f1;
+          width: 200px;
+          padding-bottom: 2px;
+          cursor: pointer;
+          color: #467ebe;
+          transition: 0.4s; }
+      .PadreContacto .ContenedorDatos .SocialMedia {
+        display: flex;
+        justify-content: flex-start; }
+        .PadreContacto .ContenedorDatos .SocialMedia ul li {
+          list-style: none;
+          display: inline; }
+          .PadreContacto .ContenedorDatos .SocialMedia ul li i {
+            font-size: 35px;
+            padding: 5px;
+            color: #467ebe; }
+    .PadreContacto .ContenedorFormulario {
+      width: 50%; }
+      .PadreContacto .ContenedorFormulario .CajaFormulario {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 80px; }
+        .PadreContacto .ContenedorFormulario .CajaFormulario form {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center; }
+          .PadreContacto .ContenedorFormulario .CajaFormulario form label {
+            color: #467ebe;
+            width: 97%;
+            margin-left: 12px;
+            margin-bottom: 6px;
+            display: flex; }
+          .PadreContacto .ContenedorFormulario .CajaFormulario form .texto1 {
+            border: 1px solid #979797;
+            border-radius: 2px;
+            margin-bottom: 15px;
+            width: 85%;
+            padding: 15px; }
+          .PadreContacto .ContenedorFormulario .CajaFormulario form .texto2 {
+            border: 1px solid #979797;
+            border-radius: 2px;
+            margin-bottom: 15px;
+            width: 85%;
+            height: 120px;
+            padding: 15px; }
+          .PadreContacto .ContenedorFormulario .CajaFormulario form .texto3 {
+            border: 1px;
+            border-radius: 2px;
+            padding: 13px;
+            width: 100px;
+            background-color: #467ebe;
+            color: white; } }
+
+@media screen and (max-width: 600px) {
   .PadreContacto {
     display: flex;
     width: 100%;
-    height: 760px;
     flex-wrap: wrap; }
     .PadreContacto .ContenedorDatos {
       width: 100%;
@@ -663,18 +679,19 @@
         margin-top: 10px;
         font-size: 1.5em; }
         .PadreContacto .ContenedorDatos .h2editar0:hover {
-          border-bottom: 5px solid #b6abf7;
+          border-bottom: 5px solid #467ebe;
           width: 150px;
           padding-bottom: 2px;
           cursor: pointer;
-          color: #b6abf7;
+          color: #467ebe;
           transition: 0.4s; }
-        .PadreContacto .ContenedorDatos .h2editar0 p {
-          padding: 6px;
-          text-align: center; }
-          .PadreContacto .ContenedorDatos .h2editar0 p a {
-            text-decoration: none;
-            color: black; }
+      .PadreContacto .ContenedorDatos p {
+        padding: 6px;
+        text-align: center; }
+        .PadreContacto .ContenedorDatos p a {
+          text-decoration: none;
+          text-align: center;
+          color: black; }
       .PadreContacto .ContenedorDatos .h2editar {
         text-align: center;
         color: #467ebe;
@@ -686,42 +703,52 @@
           width: 200px;
           padding-bottom: 2px;
           cursor: pointer;
-          color: #b6abf7;
+          color: #467ebe;
           transition: 0.4s; }
       .PadreContacto .ContenedorDatos .SocialMedia {
         display: flex;
         justify-content: center; }
-        .PadreContacto .ContenedorDatos .SocialMedia li {
-          list-style: none;
-          display: inline;
-          justify-content: center; }
-          .PadreContacto .ContenedorDatos .SocialMedia li a {
-            font-size: 35px;
-            padding: 5px;
-            color: #467ebe; }
+        .PadreContacto .ContenedorDatos .SocialMedia ul {
+          text-align: center; }
+          .PadreContacto .ContenedorDatos .SocialMedia ul li {
+            list-style: none;
+            display: inline;
+            text-align: center; }
+            .PadreContacto .ContenedorDatos .SocialMedia ul li i {
+              text-align: center;
+              font-size: 35px;
+              padding: 5px;
+              color: #467ebe; }
     .PadreContacto .ContenedorFormulario {
       width: 100%; }
       .PadreContacto .ContenedorFormulario .CajaFormulario {
+        width: 100%;
         display: flex;
         justify-content: center;
-        width: 100%;
         margin-top: 80px; }
         .PadreContacto .ContenedorFormulario .CajaFormulario form {
-          height: 500px;
+          width: 100%;
           display: flex;
           flex-direction: column;
           align-items: center; }
+          .PadreContacto .ContenedorFormulario .CajaFormulario form label {
+            display: inline-block;
+            color: #467ebe;
+            width: 90%;
+            padding-left: 0;
+            margin-left: 0;
+            margin-bottom: 6px; }
           .PadreContacto .ContenedorFormulario .CajaFormulario form .texto1 {
-            border: 1px solid #8c8b8b;
+            border: 1px solid #979797;
             border-radius: 2px;
             margin-bottom: 15px;
-            width: 300px;
+            width: 85%;
             padding: 15px; }
           .PadreContacto .ContenedorFormulario .CajaFormulario form .texto2 {
-            border: 1px solid #8c8b8b;
+            border: 1px solid #979797;
             border-radius: 2px;
             margin-bottom: 15px;
-            width: 300px;
+            width: 85%;
             height: 120px;
             padding: 15px; }
           .PadreContacto .ContenedorFormulario .CajaFormulario form .texto3 {
@@ -730,15 +757,103 @@
             padding: 13px;
             width: 100px;
             background-color: #467ebe;
-            color: white; }
-  .contactanosimagen {
+            color: white; } }
+
+@media screen and (max-width: 480px) {
+  .PadreContacto {
     display: flex;
-    justify-content: center; }
-    .contactanosimagen img {
-      margin: 40px;
-      width: 80%;
-      margin-right: 30px;
-      height: 200px; } }
+    width: 100%;
+    flex-wrap: wrap; }
+    .PadreContacto .ContenedorDatos {
+      width: 100%;
+      margin-top: 80px;
+      margin-left: 0; }
+      .PadreContacto .ContenedorDatos .h2editar0 {
+        text-align: center;
+        color: #467ebe;
+        margin-bottom: 15px;
+        margin-top: 10px;
+        font-size: 1.5em; }
+        .PadreContacto .ContenedorDatos .h2editar0:hover {
+          border-bottom: 5px solid #467ebe;
+          width: 150px;
+          padding-bottom: 2px;
+          cursor: pointer;
+          color: #467ebe;
+          transition: 0.4s; }
+      .PadreContacto .ContenedorDatos p {
+        padding: 6px;
+        text-align: center; }
+        .PadreContacto .ContenedorDatos p a {
+          text-decoration: none;
+          text-align: center;
+          color: black; }
+      .PadreContacto .ContenedorDatos .h2editar {
+        text-align: center;
+        color: #467ebe;
+        margin-bottom: 15px;
+        margin-top: 10px;
+        font-size: 1.5em; }
+        .PadreContacto .ContenedorDatos .h2editar:hover {
+          border-bottom: 5px solid #d8e1f1;
+          width: 200px;
+          padding-bottom: 2px;
+          cursor: pointer;
+          color: #467ebe;
+          transition: 0.4s; }
+      .PadreContacto .ContenedorDatos .SocialMedia {
+        display: flex;
+        justify-content: center; }
+        .PadreContacto .ContenedorDatos .SocialMedia ul {
+          text-align: center; }
+          .PadreContacto .ContenedorDatos .SocialMedia ul li {
+            list-style: none;
+            display: inline;
+            text-align: center; }
+            .PadreContacto .ContenedorDatos .SocialMedia ul li i {
+              text-align: center;
+              font-size: 35px;
+              padding: 5px;
+              color: #467ebe; }
+    .PadreContacto .ContenedorFormulario {
+      width: 100%; }
+      .PadreContacto .ContenedorFormulario .CajaFormulario {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 80px; }
+        .PadreContacto .ContenedorFormulario .CajaFormulario form {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center; }
+          .PadreContacto .ContenedorFormulario .CajaFormulario form label {
+            display: inline-block;
+            color: #467ebe;
+            width: 90%;
+            padding-left: 0;
+            margin-left: 0;
+            margin-bottom: 6px; }
+          .PadreContacto .ContenedorFormulario .CajaFormulario form .texto1 {
+            border: 1px solid #979797;
+            border-radius: 2px;
+            margin-bottom: 15px;
+            width: 85%;
+            padding: 15px; }
+          .PadreContacto .ContenedorFormulario .CajaFormulario form .texto2 {
+            border: 1px solid #979797;
+            border-radius: 2px;
+            margin-bottom: 15px;
+            width: 85%;
+            height: 120px;
+            padding: 15px; }
+          .PadreContacto .ContenedorFormulario .CajaFormulario form .texto3 {
+            border: 1px;
+            border-radius: 2px;
+            padding: 13px;
+            width: 100px;
+            background-color: #467ebe;
+            color: white; } }
 
 .SeccionBeneficios {
   padding-top: 6em;
@@ -809,6 +924,83 @@
           width: 60%;
           text-align: center;
           color: #4c4a52; }
+
+@media screen and (max-width: 768px) {
+  .SeccionBeneficios {
+    padding-top: 6em;
+    padding-bottom: 6em;
+    display: flex;
+    width: 100%;
+    justify-content: center; }
+    .SeccionBeneficios .ContenedorBeneficios {
+      display: flex;
+      justify-content: centermnp; }
+      .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios1 {
+        padding: 25px; }
+        .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios1 .HijitoBeneficios {
+          display: flex;
+          justify-content: center; }
+          .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios1 .HijitoBeneficios i {
+            font-size: 3em;
+            color: #2b2f35; }
+        .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios1 h4 {
+          font-size: 17px;
+          padding: 0.6em;
+          color: #313838;
+          text-align: center; }
+        .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios1 .HijitoDescripcion {
+          width: 100%;
+          display: flex;
+          justify-content: center; }
+          .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios1 .HijitoDescripcion p {
+            font-size: 14px;
+            width: 90%;
+            text-align: center;
+            color: #4c4a52; }
+      .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios2 {
+        padding: 25px; }
+        .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios2 .HijitoBeneficios2 {
+          display: flex;
+          justify-content: center; }
+          .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios2 .HijitoBeneficios2 i {
+            font-size: 3em;
+            color: #2b2f35; }
+        .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios2 h4 {
+          font-size: 17px;
+          padding: 0.6em;
+          color: #313838;
+          text-align: center; }
+        .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios2 .HijitoDescripcion2 {
+          width: 100%;
+          display: flex;
+          justify-content: center; }
+          .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios2 .HijitoDescripcion2 p {
+            font-size: 14px;
+            width: 90%;
+            text-align: center;
+            color: #4c4a52; }
+      .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios3 {
+        padding: 25px; }
+        .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios3 .HijitoBeneficios3 {
+          display: flex;
+          justify-content: center; }
+          .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios3 .HijitoBeneficios3 i {
+            font-size: 3em;
+            color: #2b2f35; }
+        .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios3 h4 {
+          font-size: 17px;
+          padding: 0.6em;
+          color: #313838;
+          text-align: center; }
+        .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios3 .HijitoDescripcion3 {
+          width: 100%;
+          display: flex;
+          justify-content: center; }
+          .SeccionBeneficios .ContenedorBeneficios .PadreBeneficios3 .HijitoDescripcion3 p {
+            font-size: 14px;
+            width: 90%;
+            text-align: center;
+            color: #4c4a52; } }
 
 @media screen and (max-width: 600px) {
   .SeccionBeneficios {
