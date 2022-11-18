@@ -855,6 +855,102 @@
             background-color: #467ebe;
             color: white; } }
 
+@media screen and (max-width: 480px) {
+  .PadreContacto {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap; }
+    .PadreContacto .ContenedorDatos {
+      width: 100%;
+      margin-top: 80px;
+      margin-left: 0; }
+      .PadreContacto .ContenedorDatos .h2editar0 {
+        text-align: center;
+        color: #467ebe;
+        margin-bottom: 15px;
+        margin-top: 10px;
+        font-size: 1.5em; }
+        .PadreContacto .ContenedorDatos .h2editar0:hover {
+          border-bottom: 5px solid #467ebe;
+          width: 150px;
+          padding-bottom: 2px;
+          cursor: pointer;
+          color: #467ebe;
+          transition: 0.4s; }
+      .PadreContacto .ContenedorDatos p {
+        padding: 6px;
+        text-align: center; }
+        .PadreContacto .ContenedorDatos p a {
+          text-decoration: none;
+          text-align: center;
+          color: black; }
+      .PadreContacto .ContenedorDatos .h2editar {
+        text-align: center;
+        color: #467ebe;
+        margin-bottom: 15px;
+        margin-top: 10px;
+        font-size: 1.5em; }
+        .PadreContacto .ContenedorDatos .h2editar:hover {
+          border-bottom: 5px solid #d8e1f1;
+          width: 200px;
+          padding-bottom: 2px;
+          cursor: pointer;
+          color: #467ebe;
+          transition: 0.4s; }
+      .PadreContacto .ContenedorDatos .SocialMedia {
+        display: flex;
+        justify-content: center; }
+        .PadreContacto .ContenedorDatos .SocialMedia ul {
+          text-align: center; }
+          .PadreContacto .ContenedorDatos .SocialMedia ul li {
+            list-style: none;
+            display: inline;
+            text-align: center; }
+            .PadreContacto .ContenedorDatos .SocialMedia ul li i {
+              text-align: center;
+              font-size: 35px;
+              padding: 5px;
+              color: #467ebe; }
+    .PadreContacto .ContenedorFormulario {
+      width: 100%; }
+      .PadreContacto .ContenedorFormulario .CajaFormulario {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 80px; }
+        .PadreContacto .ContenedorFormulario .CajaFormulario form {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center; }
+          .PadreContacto .ContenedorFormulario .CajaFormulario form label {
+            display: inline-block;
+            color: #467ebe;
+            width: 90%;
+            padding-left: 0;
+            margin-left: 0;
+            margin-bottom: 6px; }
+          .PadreContacto .ContenedorFormulario .CajaFormulario form .texto1 {
+            border: 1px solid #979797;
+            border-radius: 2px;
+            margin-bottom: 15px;
+            width: 85%;
+            padding: 15px; }
+          .PadreContacto .ContenedorFormulario .CajaFormulario form .texto2 {
+            border: 1px solid #979797;
+            border-radius: 2px;
+            margin-bottom: 15px;
+            width: 85%;
+            height: 120px;
+            padding: 15px; }
+          .PadreContacto .ContenedorFormulario .CajaFormulario form .texto3 {
+            border: 1px;
+            border-radius: 2px;
+            padding: 13px;
+            width: 100px;
+            background-color: #467ebe;
+            color: white; } }
+
 .SeccionBeneficios {
   padding-top: 6em;
   padding-bottom: 6em;
@@ -1172,15 +1268,17 @@
   .ContenedorImagenesFlex {
     display: flex;
     justify-content: center;
-    width: 100%; }
+    width: 100%;
+    flex-wrap: wrap; }
     .ContenedorImagenesFlex .ImagenesFlex {
+      display: none; }
+    .ContenedorImagenesFlex .ImagenesFlexCelular {
       display: flex;
       justify-content: center;
-      width: 100%;
       flex-wrap: wrap; }
-      .ContenedorImagenesFlex .ImagenesFlex img {
-        width: 100%;
-        padding: 1em; } }
+      .ContenedorImagenesFlex .ImagenesFlexCelular img {
+        padding: 0.5em;
+        width: 95%; } }
 
 .carousel {
   display: flex;

@@ -564,3 +564,118 @@
             }
         }
     }
+
+    @media screen and(max-width: 480px){
+        .PadreContacto{
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            .ContenedorDatos{
+                width: 100%;
+                margin-top: 80px;
+                margin-left: 0;
+                .h2editar0{
+                    text-align: center;
+                    color: $color_principal;
+                    margin-bottom: 15px;
+                    margin-top: 10px;
+                    font-size: 1.5em;
+                    &:hover{
+                        border-bottom: 5px solid $color_principal;
+                        width: 150px;
+                        padding-bottom: 2px;
+                        cursor: pointer;
+                        color: $color_principal;
+                        transition: 0.4s;
+                    }
+                }
+                p{
+                    padding: 6px;
+                    text-align: center;
+                    a{
+                        text-decoration: none;
+                        text-align: center;
+                        color: black;
+                    }
+                }
+                .h2editar{
+                    text-align: center;
+                    color: $color_principal;
+                    margin-bottom: 15px;
+                    margin-top: 10px;
+                    font-size: 1.5em;
+                    &:hover{
+                        border-bottom: 5px solid $color_nav1;
+                        width: 200px;
+                        padding-bottom: 2px;
+                        cursor: pointer;
+                        color: $color_principal;
+                        transition: 0.4s;
+                    }
+                }
+                .SocialMedia{
+                    display: flex;
+                    justify-content: center;
+                    ul{
+                        text-align: center;
+                        li{
+                            list-style: none;
+                            display: inline;
+                            text-align: center;
+                            i{
+                                text-align: center;
+                                font-size: 35px;
+                                padding: 5px;
+                                color: $color_principal;
+                            }
+                        }
+                    }
+                }
+            }
+        
+            .ContenedorFormulario{
+                width: 100%;
+                .CajaFormulario{
+                    @include dis-flex-100;
+                    margin-top: 80px;
+                    form{
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        label{
+                            display: inline-block;
+                            color: $color_principal;
+                            width: 90%;
+                            padding-left: 0;
+                            margin-left: 0;
+                            margin-bottom: 6px;
+                        }
+                        .texto1{
+                            border: 1px solid $color_borderform; 
+                            border-radius: 2px;
+                            margin-bottom: 15px;
+                            width: 85%;
+                            padding: 15px;
+                        }
+                        .texto2{
+                            border: 1px solid $color_borderform; 
+                            border-radius: 2px;
+                            margin-bottom: 15px;
+                            width: 85%;
+                            height: 120px;
+                            padding: 15px;
+                        }
+                        .texto3{
+                            border: 1px;
+                            border-radius: 2px;
+                            padding: 13px;
+                            width: 100px;
+                            background-color: $color_principal;
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
