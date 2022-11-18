@@ -1264,6 +1264,86 @@
       width: 90%;
       padding: 1em; }
 
+@media screen and (max-width: 1200px) {
+  .ContenedorImagenesFlex {
+    display: flex;
+    justify-content: center;
+    width: 100%; }
+    .ContenedorImagenesFlex .ImagenesFlex {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      flex-wrap: wrap; }
+      .ContenedorImagenesFlex .ImagenesFlex img {
+        width: 90%;
+        padding: 1em; }
+    .ContenedorImagenesFlex .ImagenesFlexCelular {
+      display: none; } }
+
+@media screen and (max-width: 1024px) {
+  .ContenedorImagenesFlex {
+    display: flex;
+    justify-content: center;
+    width: 100%; }
+    .ContenedorImagenesFlex .ImagenesFlex {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      flex-wrap: wrap; }
+      .ContenedorImagenesFlex .ImagenesFlex img {
+        width: 90%;
+        padding: 1em; }
+    .ContenedorImagenesFlex .ImagenesFlexCelular {
+      display: none; } }
+
+@media screen and (max-width: 768px) {
+  .ContenedorImagenesFlex {
+    display: flex;
+    justify-content: center;
+    width: 100%; }
+    .ContenedorImagenesFlex .ImagenesFlex {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      flex-wrap: wrap; }
+      .ContenedorImagenesFlex .ImagenesFlex img {
+        width: 90%;
+        padding: 1em; }
+    .ContenedorImagenesFlex .ImagenesFlexCelular {
+      display: none; } }
+
+@media screen and (max-width: 600px) {
+  .ContenedorImagenesFlex {
+    display: flex;
+    justify-content: center;
+    width: 100%; }
+    .ContenedorImagenesFlex .ImagenesFlex {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      flex-wrap: wrap; }
+      .ContenedorImagenesFlex .ImagenesFlex img {
+        width: 90%;
+        padding: 1em; }
+    .ContenedorImagenesFlex .ImagenesFlexCelular {
+      display: none; } }
+
+@media screen and (max-width: 480px) {
+  .ContenedorImagenesFlex {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap; }
+    .ContenedorImagenesFlex .ImagenesFlex {
+      display: none; }
+    .ContenedorImagenesFlex .ImagenesFlexCelular {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap; }
+      .ContenedorImagenesFlex .ImagenesFlexCelular img {
+        padding: 0.5em;
+        width: 95%; } }
+
 @media screen and (max-width: 320px) {
   .ContenedorImagenesFlex {
     display: flex;
