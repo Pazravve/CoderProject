@@ -2,17 +2,131 @@
 @import url("https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500&display=swap");
 header {
-  display: flex;
-  justify-content: center;
-  padding: 1em;
-  background-color: #e0e2f7; }
-  header .navbar {
-    width: 100%; }
-    header .navbar .container-fluid {
-      background-color: #e0e2f7; }
-      header .navbar .container-fluid .Navbar-logo {
+  background-color: #D3D9E9;
+  padding: 1em; }
+  header .navbar .container-fluid .navbar-toggler {
+    line-height: 1;
+    color: var(--bs-navbar-color);
+    background-color: transparent;
+    border: 1px; }
+  header .navbar .container-fluid .navbar-nav .nav-link.active {
+    color: #798d8d; }
+  header .navbar .container-fluid .navbar-nav .nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: 20px;
+    font-weight: var(--bs-nav-link-font-weight);
+    color: #ffffff;
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 1em; }
+    header .navbar .container-fluid .navbar-nav .nav-link:hover {
+      color: #abc2c2;
+      transition: 0.5s; }
+
+@media screen and (max-width: 1000px) {
+  .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  .nav-item {
+    display: flex;
+    padding: 0.5em; } }
+
+@media screen and (max-width: 1000px) {
+  header {
+    background-color: #D3D9E9;
+    padding: 1em; }
+    header .navbar .container-fluid .navbar-toggler {
+      line-height: 1;
+      color: var(--bs-navbar-color);
+      background-color: transparent;
+      border: 1px; }
+    header .navbar .container-fluid .navbar-nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: center; }
+      header .navbar .container-fluid .navbar-nav .nav-item {
         display: flex;
-        justify-content: flex-start; }
+        padding: 0.5em; } }
+
+@media screen and (max-width: 768px) {
+  header {
+    background-color: #D3D9E9;
+    padding: 1em; }
+    header .navbar .container-fluid .navbar-toggler {
+      line-height: 1;
+      color: var(--bs-navbar-color);
+      background-color: transparent;
+      border: 1px; }
+    header .navbar .container-fluid .navbar-nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: center; }
+      header .navbar .container-fluid .navbar-nav .nav-item {
+        display: flex;
+        padding: 0.5em; } }
+
+@media screen and (max-width: 600px) {
+  header {
+    background-color: #D3D9E9;
+    padding: 1em; }
+    header .navbar {
+      width: 100%; }
+      header .navbar .container-fluid .navbar-toggler {
+        line-height: 1;
+        color: var(--bs-navbar-color);
+        background-color: transparent;
+        border: 1px; }
+      header .navbar .container-fluid .navbar-nav {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center; }
+        header .navbar .container-fluid .navbar-nav .nav-item {
+          display: flex;
+          padding: 5px; }
+          header .navbar .container-fluid .navbar-nav .nav-item .nav-link {
+            padding: 12px; } }
+
+@media screen and (max-width: 480px) {
+  header {
+    background-color: #D3D9E9;
+    padding: 1em; }
+    header .navbar .container-fluid .navbar-toggler {
+      line-height: 1;
+      color: var(--bs-navbar-color);
+      background-color: transparent;
+      border: 1px; }
+    header .navbar .container-fluid .navbar-nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: center; }
+      header .navbar .container-fluid .navbar-nav .nav-item {
+        display: flex;
+        padding: 0px; }
+        header .navbar .container-fluid .navbar-nav .nav-item .nav-link {
+          font-size: 17px;
+          padding: 10px; } }
+
+@media screen and (max-width: 320px) {
+  header {
+    background-color: #D3D9E9;
+    padding: 1em; }
+    header .navbar .container-fluid .navbar-toggler {
+      line-height: 1;
+      color: var(--bs-navbar-color);
+      background-color: transparent;
+      border: 1px; }
+    header .navbar .container-fluid .navbar-nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap; }
+      header .navbar .container-fluid .navbar-nav .nav-item {
+        display: flex;
+        padding: 0px; }
+        header .navbar .container-fluid .navbar-nav .nav-item .nav-link {
+          font-size: 15px;
+          padding: 8px; } }
 
 * {
   margin: 0%;
