@@ -1,13 +1,6 @@
-    .contactanosimagen{
-        @include display-flex-just;
-        img{
-            margin: 40px;
-            width: 80%;
-            margin-right: 30px;
-            height: 500px;
-        }
-    }
-
+.ImagenesFlex-mobile{
+    display: none;
+}
 
 .PadreContacto{
     display: flex;
@@ -563,6 +556,14 @@
                 }
             }
         }
+        .ContenedorImagenesFlex{
+            .ImagenesFlex{
+                display: none;
+            }
+            .ImagenesFlex-mobile{
+                display: flex;
+            }
+        }
     }
 
     @media screen and(max-width: 480px){
@@ -676,6 +677,14 @@
                         }
                     }
                 }
+            }
+        }
+        .ContenedorImagenesFlex{
+            .ImagenesFlex{
+                display: none;
+            }
+            .ImagenesFlex-mobile{
+                display: flex;
             }
         }
     }

@@ -196,7 +196,7 @@ header {
     height: 100vh; }
 
 .SeccionFooter {
-  background-color: #467ebe;
+  background-color: #D3D9E9;
   width: 100%;
   margin-bottom: auto; }
   .SeccionFooter footer {
@@ -222,26 +222,28 @@ header {
             justify-content: center;
             padding-bottom: 15px; }
             .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreNavegacion ul li {
+              font-family: 'Lexend Deca', sans-serif;
               list-style: none; }
               .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreNavegacion ul li a {
                 text-decoration: none;
-                color: white;
+                color: #798d8d;
                 margin: 20px; }
       .SeccionFooter footer .ContenedorFooter .PadreCopyright {
         display: flex;
         justify-content: center;
         width: 100%;
-        color: white; }
+        color: #798d8d; }
         .SeccionFooter footer .ContenedorFooter .PadreCopyright p {
-          border-top: 2px solid #75b3b8;
+          font-family: 'Lexend Deca', sans-serif;
+          border-top: 2px solid #adbfc0;
           padding: 20px; }
           .SeccionFooter footer .ContenedorFooter .PadreCopyright p a {
             text-decoration: none;
-            color: white; }
+            color: #798d8d; }
 
 @media screen and (max-width: 768px) {
   .SeccionFooter {
-    background-color: #467ebe;
+    background-color: #D3D9E9;
     width: 100%; }
     .SeccionFooter footer .ContenedorFooter {
       width: 100%;
@@ -268,26 +270,26 @@ header {
               .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreNavegacion ul li a {
                 font-size: 14px;
                 text-decoration: none;
-                color: white;
+                color: #798d8d;
                 margin: 15px; }
       .SeccionFooter footer .ContenedorFooter .PadreCopyright {
         display: flex;
         justify-content: center;
         width: 100%;
-        color: white; }
+        color: #798d8d; }
         .SeccionFooter footer .ContenedorFooter .PadreCopyright p {
           width: 90%;
-          border-top: 2px solid #75b3b8;
+          border-top: 2px solid #adbfc0;
           padding: 20px;
           font-size: 12px; }
           .SeccionFooter footer .ContenedorFooter .PadreCopyright p a {
             font-size: 12px;
             text-decoration: none;
-            color: white; } }
+            color: #798d8d; } }
 
 @media screen and (max-width: 600px) {
   .SeccionFooter {
-    background-color: #467ebe;
+    background-color: #D3D9E9;
     width: 100%; }
     .SeccionFooter footer .ContenedorFooter {
       width: 100%;
@@ -314,26 +316,26 @@ header {
               .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreNavegacion ul li a {
                 font-size: 13px;
                 text-decoration: none;
-                color: white;
+                color: #798d8d;
                 margin: 15px; }
       .SeccionFooter footer .ContenedorFooter .PadreCopyright {
         display: flex;
         justify-content: center;
         width: 100%;
-        color: white; }
+        color: #798d8d; }
         .SeccionFooter footer .ContenedorFooter .PadreCopyright p {
           width: 90%;
-          border-top: 1px solid #75b3b8;
+          border-top: 1px solid #adbfc0;
           padding: 15px;
           font-size: 10px; }
           .SeccionFooter footer .ContenedorFooter .PadreCopyright p a {
             font-size: 10px;
             text-decoration: none;
-            color: white; } }
+            color: #798d8d; } }
 
 @media screen and (max-width: 480px) {
   .SeccionFooter {
-    background-color: #467ebe;
+    background-color: #D3D9E9;
     width: 100%; }
     .SeccionFooter footer .ContenedorFooter {
       width: 100%;
@@ -360,26 +362,26 @@ header {
               .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreNavegacion ul li a {
                 font-size: 10px;
                 text-decoration: none;
-                color: white;
+                color: #798d8d;
                 margin: 15px; }
       .SeccionFooter footer .ContenedorFooter .PadreCopyright {
         display: flex;
         justify-content: center;
         width: 100%;
-        color: white; }
+        color: #798d8d; }
         .SeccionFooter footer .ContenedorFooter .PadreCopyright p {
           width: 90%;
-          border-top: 1px solid #75b3b8;
+          border-top: 1px solid #adbfc0;
           padding: 15px;
           font-size: 10px; }
           .SeccionFooter footer .ContenedorFooter .PadreCopyright p a {
             font-size: 10px;
             text-decoration: none;
-            color: white; } }
+            color: #798d8d; } }
 
 @media screen and (max-width: 320px) {
   .SeccionFooter {
-    background-color: #467ebe;
+    background-color: #D3D9E9;
     width: 100%; }
     .SeccionFooter footer .ContenedorFooter {
       width: 100%;
@@ -406,32 +408,26 @@ header {
               .SeccionFooter footer .ContenedorFooter .ContNavegacion .PadreNavegacion ul li a {
                 font-size: 10px;
                 text-decoration: none;
-                color: white;
+                color: #798d8d;
                 margin: 9px; }
       .SeccionFooter footer .ContenedorFooter .PadreCopyright {
         display: flex;
         justify-content: center;
         width: 100%;
-        color: white; }
+        color: #798d8d; }
         .SeccionFooter footer .ContenedorFooter .PadreCopyright p {
           margin-bottom: 0;
           width: 90%;
-          border-top: 1px solid #75b3b8;
+          border-top: 1px solid #adbfc0;
           padding: 15px;
           font-size: 9px; }
           .SeccionFooter footer .ContenedorFooter .PadreCopyright p a {
             font-size: 9px;
             text-decoration: none;
-            color: white; } }
+            color: #798d8d; } }
 
-.contactanosimagen {
-  display: flex;
-  justify-content: center; }
-  .contactanosimagen img {
-    margin: 40px;
-    width: 80%;
-    margin-right: 30px;
-    height: 500px; }
+.ImagenesFlex-mobile {
+  display: none; }
 
 .PadreContacto {
   display: flex;
@@ -879,7 +875,11 @@ header {
             padding: 13px;
             width: 100px;
             background-color: #467ebe;
-            color: white; } }
+            color: white; }
+  .ContenedorImagenesFlex .ImagenesFlex {
+    display: none; }
+  .ContenedorImagenesFlex .ImagenesFlex-mobile {
+    display: flex; } }
 
 @media screen and (max-width: 480px) {
   .PadreContacto {
@@ -975,7 +975,11 @@ header {
             padding: 13px;
             width: 100px;
             background-color: #467ebe;
-            color: white; } }
+            color: white; }
+  .ContenedorImagenesFlex .ImagenesFlex {
+    display: none; }
+  .ContenedorImagenesFlex .ImagenesFlex-mobile {
+    display: flex; } }
 
 .SeccionBeneficios {
   padding-top: 6em;
