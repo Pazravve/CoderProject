@@ -97,7 +97,36 @@ header{
         }
     }
 }
+@media screen and(max-width: 670px){
 
+    header{
+        background-color: #D3D9E9;
+        padding: 1em;
+        .navbar{
+            .container-fluid{
+                .navbar-toggler{
+                    line-height: 1;
+                    color: var(--bs-navbar-color);
+                    background-color: transparent;
+                    border: 1px;
+                }
+                .navbar-nav{
+                    display: flex;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    .nav-item{
+                        display: flex;
+                        padding: 0px;
+                        .nav-link{
+                            font-size: 17px;
+                            padding: 8px;
+                        }                     
+                    }
+                }
+            }
+        }
+    }
+}
 @media screen and(max-width: 600px){
 
     header{
@@ -155,6 +184,68 @@ header{
                         .nav-link{
                             font-size: 17px;
                             padding: 10px;
+                        }                     
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and(max-width: 430px){
+
+    header{
+        background-color: #D3D9E9;
+        padding: 1em;
+        .navbar{
+            .container-fluid{
+                .navbar-toggler{
+                    line-height: 1;
+                    color: var(--bs-navbar-color);
+                    background-color: transparent;
+                    border: 1px;
+                }
+                .navbar-nav{
+                    display: flex;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    .nav-item{
+                        display: flex;
+                        padding: 0px;
+                        .nav-link{
+                            font-size: 15px;
+                            padding: 8px;
+                        }                     
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and(max-width: 400px){
+
+    header{
+        background-color: #D3D9E9;
+        padding: 1em;
+        .navbar{
+            .container-fluid{
+                .navbar-toggler{
+                    line-height: 1;
+                    color: var(--bs-navbar-color);
+                    background-color: transparent;
+                    border: 1px;
+                }
+                .navbar-nav{
+                    display: flex;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    .nav-item{
+                        display: flex;
+                        padding: 0px;
+                        .nav-link{
+                            font-size: 15px;
+                            padding: 8px;
                         }                     
                     }
                 }
