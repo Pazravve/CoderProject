@@ -1402,11 +1402,14 @@ header {
         padding-right: 0;
         width: 100%; } }
 
-.carousel {
+.carouselExampleDark-PC .carousel {
   display: flex;
   justify-content: center; }
-  .carousel .ContenedorCarrusel {
+  .carouselExampleDark-PC .carousel .ContenedorCarrusel {
     width: 90%; }
+
+.carouselExampleDark-mobile {
+  display: none; }
 
 .SeccionAboutUs {
   display: flex;
@@ -1619,12 +1622,16 @@ header {
             font-size: 16px;
             color: #3d3232; } }
 
-@media screen and (max-width: 768px) {
-  .carousel {
-    display: flex;
-    justify-content: center; }
-    .carousel .ContenedorCarrusel {
-      width: 90%; }
+@media screen and (max-width: 600px) {
+  .carouselExampleDark-PC {
+    display: none; }
+    .carouselExampleDark-PC .carousel {
+      display: none;
+      justify-content: center; }
+      .carouselExampleDark-PC .carousel .ContenedorCarrusel {
+        width: 90%; }
+  .carouselExampleDark-mobile {
+    display: flex; }
   .SeccionAboutUs {
     display: flex;
     justify-content: center;
@@ -1700,12 +1707,16 @@ header {
             font-size: 16px;
             color: #3d3232; } }
 
-@media screen and (max-width: 768px) {
-  .carousel {
-    display: flex;
-    justify-content: center; }
-    .carousel .ContenedorCarrusel {
-      width: 90%; }
+@media screen and (max-width: 480px) {
+  .carouselExampleDark-PC {
+    display: none; }
+    .carouselExampleDark-PC .carousel {
+      display: none;
+      justify-content: center; }
+      .carouselExampleDark-PC .carousel .ContenedorCarrusel {
+        width: 90%; }
+  .carouselExampleDark-mobile {
+    display: flex; }
   .SeccionAboutUs {
     display: flex;
     justify-content: center;
@@ -1781,12 +1792,16 @@ header {
             font-size: 14px;
             color: #3d3232; } }
 
-@media screen and (max-width: 768px) {
-  .carousel {
-    display: flex;
-    justify-content: center; }
-    .carousel .ContenedorCarrusel {
-      width: 90%; }
+@media screen and (max-width: 320px) {
+  .carouselExampleDark-PC {
+    display: none; }
+    .carouselExampleDark-PC .carousel {
+      display: none;
+      justify-content: center; }
+      .carouselExampleDark-PC .carousel .ContenedorCarrusel {
+        width: 90%; }
+  .carouselExampleDark-mobile {
+    display: flex; }
   .SeccionAboutUs {
     display: flex;
     justify-content: center;
