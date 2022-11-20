@@ -731,7 +731,8 @@ header {
         display: flex;
         justify-content: center; }
         .PadreContacto .ContenedorDatos .SocialMedia ul {
-          text-align: center; }
+          text-align: center;
+          padding: 0; }
           .PadreContacto .ContenedorDatos .SocialMedia ul li {
             list-style: none;
             display: inline;
@@ -827,7 +828,8 @@ header {
         display: flex;
         justify-content: center; }
         .PadreContacto .ContenedorDatos .SocialMedia ul {
-          text-align: center; }
+          text-align: center;
+          padding: 0; }
           .PadreContacto .ContenedorDatos .SocialMedia ul li {
             list-style: none;
             display: inline;
@@ -927,7 +929,8 @@ header {
         display: flex;
         justify-content: center; }
         .PadreContacto .ContenedorDatos .SocialMedia ul {
-          text-align: center; }
+          text-align: center;
+          padding: 0; }
           .PadreContacto .ContenedorDatos .SocialMedia ul li {
             list-style: none;
             display: inline;
