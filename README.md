@@ -33,7 +33,7 @@
 - [@Pazravve](https://github.com/Pazravve)
 
 ## Github pages! 
-- Si estás interesado en ver la página, te dejo el [link.]( https://pazravve.github.io/CoderProject/) :sparkles:
+- Si estás interesado en ver la página, te dejo el [link.](https://pazravve.github.io/CoderProject/) :sparkles:
 
 ¡Muchas gracias por llegar hasta acá, espero que te haya gustado mi trabajo! :smiling_face_with_three_hearts:
 
